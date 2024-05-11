@@ -6,12 +6,27 @@
 
 .columna1 {
 
-    background-color: aqua;
+    background-color: rgb(34, 195, 56);
+    padding: 25px;
+    margin: 0 10px;
+    width: 300;
+    height: 600;
+
+}
+.columna11{
+    width: 250;
+    height: 101;
+    background-color: brown;
     padding: 25px;
     margin: 0 10px;
 }
 .columna2 {
     background-color: aqua;
+    padding: 25px;
+    margin: 0 10px;
+}
+.columna22{
+    background-color: rgb(242, 255, 0);
     padding: 25px;
     margin: 0 10px;
 }

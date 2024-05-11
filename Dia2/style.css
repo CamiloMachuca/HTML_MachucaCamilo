@@ -1,0 +1,22 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+
+.columna1 {
+
+    background-color: aqua;
+    padding: 25px;
+    margin: 0 10px;
+}
+.columna2 {
+    background-color: aqua;
+    padding: 25px;
+    margin: 0 10px;
+}
+.columna3 {
+    background-color: rgb(136, 79, 15);
+    padding: 25px;
+    margin: 0 10px;
+}

@@ -6,29 +6,33 @@
 
 .columna1 {
 
-    background-color: rgb(34, 195, 56);
+    background-color: rgb(255, 255, 255);
     padding: 25px;
     margin: 0 10px;
-    width: 300;
-    height: 600;
 
 }
-.columna11{
-    width: 250;
-    height: 101;
-    background-color: brown;
-    padding: 25px;
-    margin: 0 10px;
-}
-.columna2 {
+.columna111{
     background-color: aqua;
     padding: 25px;
+    margin:  10px;
+}
+.columna11{
+    background-color: brown;
+    padding: 25px;
+    margin:  10px;
+    
+}
+.columna2 {
+    background-color: rgb(44, 168, 89);
+    padding: 15px;
     margin: 0 10px;
+   
 }
 .columna22{
     background-color: rgb(242, 255, 0);
     padding: 25px;
-    margin: 0 10px;
+    margin: 100 10px;
+   
 }
 .columna3 {
     background-color: rgb(136, 79, 15);

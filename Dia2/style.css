@@ -12,12 +12,12 @@
 
 }
 .columna111{
-    background-color: aqua;
+    background-color: rgb(26, 134, 134);
     padding: 25px;
     margin:  10px;
 }
 .columna11{
-    background-color: brown;
+    background-color: rgb(166, 136, 25);
     padding: 25px;
     margin:  10px;
     
@@ -29,8 +29,8 @@
    
 }
 .columna22{
-    background-color: rgb(242, 255, 0);
-    padding: 25px;
+    background-color: rgb(78, 82, 11);
+    padding: 45px;
     margin: 100 10px;
    
 }

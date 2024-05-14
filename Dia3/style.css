@@ -1,0 +1,12 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contendor1{
+    text-decoration: none;
+    color: rgb(118, 165, 42);
+    font-size: 80px;
+    font-weight: 500;
+}

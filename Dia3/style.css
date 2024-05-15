@@ -8,11 +8,13 @@
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    margin: 0 auto;
 
 }
 /* esta es el codigo de la imagen en blanco del fondo*/
 .rectangulo { 
     top: 200px;
+    margin-top: 200px;
     left: 80px;
     width: 1100px;
     height: 800px;
@@ -39,40 +41,45 @@
     opacity: 1;
 }
 .ComprarTarjeta{
-    top: 240px;
-    left: 800px;
+    position: relative;
+    top: -1300px;
+    left: 650px;
     width: 230px;
     height: 41px;
     background: transparent url('img/Comprar Tarjeta.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .verSaldo{
-    top: 242px;
-    left: 1072px;
+    position: relative;
+    top: -1342px;
+    left: 972px;
     width: 132px;
     height: 41px;
     background: transparent url('img/Ver Saldo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .lupita{
-    top: 252px;
-    left: 1224px;
+    position: relative;
+    top: -1370px;
+    left: 1134px;
     width: 27px;
     height: 27px;
     background: transparent url('img/Icon ionic-ios-search.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .carroCompra{
-    top: 252px;
-    left: 1324px;
+    position: relative;
+    top: -2200px;
+    left: 1224px;
     width: 33px;
     height: 32px;
     background: transparent url('img/Icon feather-shopping-cart.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .barraNegra{
-    top: 200px;
-    left: 1390px;
+    position: relative;
+    top: -1450px;
+    left: 1290px;
     width: 110px;
     height: 800px;
     background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box;
@@ -80,8 +87,9 @@
     opacity: 1;
 }
 .flechaArriba{
-    top: 240px;
-    left: 1433px;
+    position: relative;
+    top: -1540px;
+    left: 1330px;
     width: 24px;
     height: 14px;
     background: transparent url('img/Icon ionic-ios-arrow-up.png') 0% 0% no-repeat padding-box;

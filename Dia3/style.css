@@ -2,8 +2,8 @@
 /*este es el fondo gris */
 .fondo {
     top: 0px;
-    left: 0px;
-    width: 1600px;
+    left: 50px;
+    width: 1000px;
     height: 1200px;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
@@ -13,15 +13,16 @@
 /* esta es el codigo de la imagen en blanco del fondo*/
 .rectangulo { 
     top: 200px;
-    left: 100px;
-    width: 1400px;
+    left: 80px;
+    width: 1100px;
     height: 800px;
     background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
 }
 .metrolinea {
-    top: 322px;
+    position: relative;
+    top: -722px;
     left: 227px;
     width: 884px;
     height: 497px;
@@ -29,8 +30,9 @@
     opacity: 1;
 }
 .metrolineaLogo{/* imagen superior izquierda "metrolinea"*/
-    top: 243px;
-    left: 143px;
+    position: relative;
+    top: -1240px;
+    left: 60px;
     width: 196px;
     height: 44px;
     background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;

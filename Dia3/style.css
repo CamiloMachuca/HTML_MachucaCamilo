@@ -1,9 +1,10 @@
 
 /*este es el fondo gris */
-.fondo {
+
+.contenedor {
     top: 0px;
     left: 50px;
-    width: 1000px;
+    width: 1600px;
     height: 1200px;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;

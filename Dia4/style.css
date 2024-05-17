@@ -1,6 +1,18 @@
 .fondo{
-
     top: 0px;
+    left: 2px;
+    width: 1918px;
+    height: 4149px;
+    /* UI Properties */
+    background: transparent url('img/Path 1.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.imagenfondo{
+    position: relative;
+    top: -4140px;
     left: 0px;
     width: 1920px;
     height: 1080px;
@@ -8,11 +20,384 @@
     opacity: 0.35;
 }
 .lupita{
-
-    top: 37px;
-    left: 63px;
+    position: relative;
+    top: -5180px;
+    left: 63px;/*left para mover hacia los lados*/
     width: 36px;
     height: 36px;
     background: transparent url('img/Icon awesome-search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.loginn{
+    position: relative;
+    top: -5240px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.login{
+    font-size: 30px;
+    position: relative;
+    top: -5315px;
+    left: 1763px;
+    width: 50px;
+    height: 20px;
+    color: #707070;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.prime{
+    position: relative;
+    top: -5120px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url('img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.titulo{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    position: relative;
+    top: -5190px;
+    color: aliceblue;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.textotitulo{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    position: relative;
+    top: -5170px;
+    color: rgb(170, 170, 186);
+    left: 460px;
+    width: 1160px;
+    height: 102px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.cuadritoblanco{
+    position: relative;
+    top: -5110px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+.textocuadrito{
+    font-family:Calibri;
+    font-size: 40px;
+    position: relative;
+    top: -5225px;
+    color: rgb(78, 78, 89);
+    left: 800px;
+    width: 360px;
+    height: 40px;
+    background: transparent 0% 0% no-repeat padding-box;
+    
+}
+.cuadroazul1{
+    position: relative;
+    top: -5000px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.cuadroazul2{
+    position: relative;
+    top: -4950px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+.titulocuadroazul{
+    font-family:'Franklin Gothic Medium';
+    font-size:66px;
+    position: relative;
+    top: -5680px;
+    color: aliceblue;
+    left: 155px;
+    width: 1664px;
+    height: 60px;
+    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangle4{
+    position: relative;
+    top: -5700px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.rectangle5{
+    position: relative;
+    top: -6010px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.rectangle6{
+    position: relative;
+    top: -6323px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.rectangle7{
+    position: relative;
+    top: -6635px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.rectangle8{
+    position: relative;
+    top: -6945px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.textorectangulos{
+    font-size: 50px;
+    position: relative;
+    top: -6960px;
+    color: aliceblue;
+    left: 440px;
+    width: 1492px;
+    height: 110px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.textorectanguloo{
+    font-size: 50px;
+    position: relative;
+    top: -7070px;
+    color: aliceblue;
+    left: 237px;
+    width: 1492px;
+    height: 110px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangle3{
+    position: relative;
+    top: -6980px;
+    left: 64px;
+    width: 1802px;
+    height: 567px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+.textorectangle3{
+    font-family:'Franklin Gothic Medium';
+    font-size: 64px;
+    position: relative;
+    top: -7550px;
+    color: aliceblue;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.imagenX{
+    position: relative;
+    top: -7480px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent url('img/Icon metro-cancel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.textoimagenX{
+    font-family: calibri;
+    font-size: 44px;
+    position: relative;
+    top: -7400px;
+    color: aliceblue;
+    left: 290px;
+    width: 1382px;
+    height: 88px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.textoimage{
+    font-family: calibri;
+    font-size: 44px;
+    position: relative;
+    top: -7470px;
+    color: aliceblue;
+    left: 900px;
+    width: 1382px;
+    height: 88px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.compatible{
+    font-family: Arial;
+    font-size: 125px;
+    position: relative;
+    top: -7460px;
+    color:aliceblue;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text{
+    font-family: calibri;
+    position: relative;
+    font-size: 45px;
+    top: -7450px;
+    color: aliceblue;
+    left: 250px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.textt{
+    font-family: calibri;
+    position: relative;
+    font-size: 45px;
+    top: -7540px;
+    color: aliceblue;
+    left: 750px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.imagen1{
+    position: relative;
+    top: -7590px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.imagen2{
+    position: relative;
+    top: -7950px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.imagen3{
+    position: relative;
+    top: -8200px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.llave1{
+    font-size: 40px;
+    color: #707070;
+    position: relative;
+    top: -8350px;
+    left: 1600px;
+    width: 271px;
+    height: 238px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.llave2{
+    font-size: 40px;
+    color: #707070;
+    position: relative;
+    top: -8650px;
+    left: 300px;
+    width: 271px;
+    height: 238px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.firma{
+    position: relative;
+    top: -8650px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.privacy{
+    position: relative;
+    top: -8820px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.powere{
+    position: relative;
+    top: -8900px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.tex{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    position: relative;
+    top: -12310px;
+    color: rgb(170, 170, 186);
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.textooo{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    position: relative;
+    top: -12410px;
+    color: rgb(170, 170, 186);
+    left: 890px;
+    width: 1160px;
+    height: 102px;
+    background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
 }

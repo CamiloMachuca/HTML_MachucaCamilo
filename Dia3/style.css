@@ -1,10 +1,9 @@
 
 /*este es el fondo gris */
-
-.contenedor {
+.fondo {
     top: 0px;
     left: 50px;
-    width: 1600px;
+    width: 1000px;
     height: 1200px;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
@@ -12,6 +11,7 @@
     margin: 0 auto;
 
 }
+
 /* esta es el codigo de la imagen en blanco del fondo*/
 .rectangulo { 
     top: 200px;
@@ -174,8 +174,5 @@
     left: 680px;
     width: 146px;
     height: 0px;
-    border: 2px solid var(--unnamed-color-212020);
-    background: transparent url('img/Line 1.png') 0% 0% no-repeat padding-box;
-    border: 2px solid #212020;
-    opacity: 1;
+  
 }

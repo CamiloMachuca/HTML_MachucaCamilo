@@ -1,0 +1,508 @@
+@font-face {
+    font-family: tipoletra;
+    src: url("./tipografia/Cascadia.ttf");
+}
+
+.fondo{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.foods{
+    position: relative;
+    font-family: tipoletra;
+    left: 90px;
+    color: #fc6f2a;
+    top: 0px;
+    font-size: 50px;
+
+    
+    
+}
+.Home{
+    position: relative;
+    font-family: tipoletra;
+    left: 900px;
+    color:aliceblue;
+    top: 15px;
+    font-size: 30px;
+}
+.About{
+    position: relative;
+    font-family: tipoletra;
+    left: 1000px;
+    color:aliceblue;
+    top: 15px;
+    font-size: 30px;
+}
+.Menu{
+    position: relative;
+    font-family: tipoletra;
+    left: 1050px;
+    color:aliceblue;
+    top: 15px;
+    font-size: 30px;
+}
+.Service{
+    position: relative;
+    font-family: tipoletra;
+    left: 1100px;
+    color:aliceblue;
+    top: 15px;
+    font-size: 30px;
+}
+.Contact{
+    position: relative;
+    font-family: tipoletra;
+    left: 1150px;
+    color:aliceblue;
+    top: 15px;
+    font-size: 30px;
+}
+#website{
+    position: relative;
+    font-family: tipoletra;
+    font-size: 100px;
+    left: -400px;
+    color: #fc6f2a;
+    top: 200px;
+    
+}
+.texto{
+    position: relative;
+    font-family: tipoletra;
+    left: -800px;
+    color:aliceblue;
+    top: 500px;
+    font-size: 40px;
+}
+.imagenHome{
+    position: relative;
+    top: 150px;
+    left: -300px;
+    width: 520px;
+}
+.cuadroNaranja{
+    position: relative;
+    width: 217px;
+    height: 24px;
+    background-color: #fc6f2a;
+    border: #fc6f2a;
+    padding: 20px;
+    top: 750px;
+    left: -1540px;
+}
+.textoNaranja{
+    position: relative;
+    color: #efeff0;
+    top: -40px;
+    left: 5px;
+    font-family: tipoletra;
+    font-size: 25px;
+}
+.fondo2{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+}
+.About2{
+    position: relative;
+    font-family: tipoletra;
+    left: 1100px;
+    color: #cb5d2a;
+    top: 100px;
+    font-size: 30px;
+}
+.textoblanco{
+    position: relative;
+    color: #efeff0;
+    top:200px;
+    left: 1000px;
+    font-family: tipoletra;
+    font-size: 60px;
+}
+.textoblanco2{
+    position: relative;
+    color: #efeff0;
+    top:450px;
+    left: 500px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.cuadroNaranja2{
+    position: relative;
+    width: 217px;
+    height: 24px;
+    background-color: #fc6f2a;
+    border: #fc6f2a;
+    padding: 20px;
+    top: 700px;
+    left: -50px;
+}
+.textoNaranja2{
+    position: relative;
+    color: #efeff0;
+    top: -40px;
+    left: 5px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.imagenabout{
+    position: relative;
+    top: 250px;
+    left: -1100px;
+    width: 520px;
+}
+.fondo3{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+    
+}
+.textonaranja3{
+    position: relative;
+    font-family: tipoletra;
+    left: 900px;
+    color: #cb5d2a;
+    top: 50px;
+    font-size: 40px;
+    
+}
+.textoblanco3{
+    position: relative;
+    color: #efeff0;
+    top:200px;
+    left: 250px;
+    font-family: tipoletra;
+    font-size: 80px;
+}
+.cuadroPiel1{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color:#ffefe8;
+    border: #3c3944;
+    padding: 20px;
+    top: 500px;
+    left: -800px;
+}
+.food1{
+    position: relative;
+    top: 2px;
+    left: -20px;
+    width: 20px;
+}
+.chicken{
+    position: relative;
+    color: #0b0b0c;
+    top:-30px;
+    left: 5px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.tasty{
+    position: relative;
+    color: #0b0b0c;
+    top:-50px;
+    left: 50px;
+    font-family: tipoletra;
+    font-size: 25px;
+}
+.precio1{
+    position: relative;
+    color: #cb5d2a;
+    top:-70px;
+    left: 90px;
+    font-size: 25px;
+}
+.cuadroPiel2{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color:#ffefe8;
+    border: #3c3944;
+    padding: 20px;
+    top: 500px;
+    left: -750px;
+}
+.food2{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 20px;
+}
+.Special{
+    position: relative;
+    color: #0b0b0c;
+    top:-30px;
+    left: 20px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.tasty2{
+    position: relative;
+    color: #0b0b0c;
+    top:-50px;
+    left: 50px;
+    font-family: tipoletra;
+    font-size: 25px;
+}
+.precio2{
+    position: relative;
+    color: #cb5d2a;
+    top:-70px;
+    left: 150px;
+    font-size: 25px;
+}
+.cuadroPiel3{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color:#ffefe8;
+    border: #3c3944;
+    padding: 20px;
+    top: 500px;
+    left: -700px;
+}
+.food3{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 20px;
+}
+.chicken2{
+    position: relative;
+    color: #0b0b0c;
+    top:-30px;
+    left: 50px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.fondo4{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+    
+}
+.Service2{
+    position: relative;
+    color: #cb5d2a;
+    font-family: tipoletra;
+    top:70px;
+    left: 900px;
+    font-size: 30px;
+}
+.text{
+    position: relative;
+    color:#efeff0;
+    font-family: tipoletra;
+    top:90px;
+    left: 210px;
+    font-size: 70px;
+}
+.s1{
+    position: relative;
+    top: 300px;
+    left: -1100px;
+    width: 20px;
+}
+.order{
+    position: relative;
+    color: #cb5d2a;
+    font-family: tipoletra;
+    top:620px;
+    left: -1030px;
+    font-size: 50px;
+}
+.s2{
+    position: relative;
+    top: 300px;
+    left: -600px;
+    width: 20px;
+}
+.shipping{
+    position: relative;
+    color: #cb5d2a;
+    font-family: tipoletra;
+    top:620px;
+    left: -560px;
+    font-size: 50px;
+}
+.s3{
+    position: relative;
+    top: 300px;
+    left: -300px;
+    width: 20px;
+}
+.dellvered{
+    position: relative;
+    color: #cb5d2a;
+    font-family: tipoletra;
+    top:650px;
+    left: -100px;
+    font-size: 50px;
+}
+.textoo1{
+    position: relative;
+    color:#efeff0;
+    font-family: tipoletra;
+    top:700px;
+    left: -280px;
+    font-size: 40px;
+}
+.textoo2{
+    position: relative;
+    color:#efeff0;
+    font-family: tipoletra;
+    top:700px;
+    left: -210px;
+    font-size: 40px;
+}
+.textoo3{
+    position: relative;
+    color:#efeff0;
+    font-family: tipoletra;
+    top:700px;
+    left: -210px;
+    font-size: 40px;
+}
+.fondo5{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+    
+}
+.cuadrogrande{
+    position: relative;
+    width: 1500px;
+    height: 600px;
+    background-color:#ffefe8;
+    border: #3c3944;
+    padding: 20px;
+    top: 200px;
+    left: 190px;
+}
+.tex{
+    position: relative;
+    color:#0b0b0c;
+    font-family: tipoletra;
+    top:100px;
+    left: 300px;
+    font-size: 70px;
+}
+.cuadroNaranjaa{
+    position: relative;
+    width: 217px;
+    height: 24px;
+    background-color: #fc6f2a;
+    border: #fc6f2a;
+    padding: 20px;
+    top: 100px;
+    left: 550px;
+}
+.textoNaranjaa{
+    position: relative;
+    color: #efeff0;
+    top: -40px;
+    left: 5px;
+    font-family: tipoletra;
+    font-size: 30px;
+}
+.fondo6{
+    background-color: #1e1d2b;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 880px;
+    margin: 0 auto;
+    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+    
+}
+.columna1{
+    position: relative;
+    color: #efeff0;
+    top: 50px;
+    left: 300px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.columna11{
+    position: relative;
+    color: #efeff0;
+    top: 200px;
+    left: 80px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.columna2{
+    position: relative;
+    color: #efeff0;
+    top: 50px;
+    left: 300px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.columna22{
+    position: relative;
+    color: #efeff0;
+    top: 200px;
+    left: 50px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.columna3{
+    position: relative;
+    color: #efeff0;
+    top: 50px;
+    left: 120px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.columna33{
+    position: relative;
+    color: #efeff0;
+    top: 200px;
+    left: -130px;
+    font-family: tipoletra;
+    font-size: 40px;
+}
+.cont{
+    position: relative;
+    color: #efeff0;
+    top: 50px;
+    left: -100px;
+    font-family: tipoletra;
+    font-size: 40px;
+}

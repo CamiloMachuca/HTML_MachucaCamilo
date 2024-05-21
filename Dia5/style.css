@@ -2,15 +2,21 @@
     font-family: tipoletra;
     src: url("./tipografia/Cascadia.ttf");
 }
-
+.contenedor{
+    width: 1920;
+    height: 1080;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .fondo{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
-    display: flex;
+    border-style: solid ;
+    border-color: #cb5d2a;
+    overflow: hidden;
+
     
 }
 
@@ -28,220 +34,221 @@
 .Home{
     position: relative;
     font-family: tipoletra;
-    left: 900px;
+    left: 1050px;
     color:aliceblue;
-    top: 15px;
+    top: -80px;
     font-size: 30px;
 }
 .About{
     position: relative;
     font-family: tipoletra;
-    left: 1000px;
+    left: 1200px;
     color:aliceblue;
-    top: 15px;
+    top: -140px;
     font-size: 30px;
 }
 .Menu{
     position: relative;
     font-family: tipoletra;
-    left: 1050px;
+    left: 1360px;
     color:aliceblue;
-    top: 15px;
+    top: -205px;
     font-size: 30px;
 }
 .Service{
     position: relative;
     font-family: tipoletra;
-    left: 1100px;
+    left: 1500px;
     color:aliceblue;
-    top: 15px;
+    top:-270px;
     font-size: 30px;
 }
 .Contact{
     position: relative;
     font-family: tipoletra;
-    left: 1150px;
+    left: 1680px;
     color:aliceblue;
-    top: 15px;
+    top: -330px;
     font-size: 30px;
 }
 #website{
     position: relative;
     font-family: tipoletra;
-    font-size: 100px;
-    left: -400px;
-    color: #fc6f2a;
-    top: 200px;
+    left: 240px;
+    color: #cb5d2a;
+    top: -200px;
+    font-size: 95px;
+    margin-right: 1200px;
     
 }
 .texto{
+    
     position: relative;
     font-family: tipoletra;
-    left: -800px;
-    color:aliceblue;
-    top: 500px;
+    left: 240px;
+    color: #efeff0;
+    top: -250px;
     font-size: 40px;
+    margin-right: 1300px;
+
 }
 .imagenHome{
     position: relative;
-    top: 150px;
-    left: -300px;
-    width: 520px;
+    font-family: tipoletra;
+    left: 1000px;
+    top: -700px;
+    font-size: 40px;
+    margin-right: 1600px;
 }
 .cuadroNaranja{
     position: relative;
-    width: 217px;
-    height: 24px;
+    width: 317px;
+    height: 54px;
     background-color: #fc6f2a;
     border: #fc6f2a;
-    padding: 20px;
-    top: 750px;
-    left: -1540px;
+    top: -880px;
+    left: 240px;
 }
 .textoNaranja{
     position: relative;
     color: #efeff0;
-    top: -40px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     font-family: tipoletra;
-    font-size: 25px;
+    font-size: 35px;
 }
 .fondo2{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
-    display: flex;
     border-style: solid ;
     border-color: #cb5d2a;
+    overflow: hidden;
 }
 .About2{
     position: relative;
     font-family: tipoletra;
-    left: 1100px;
+    left: 900px;
     color: #cb5d2a;
-    top: 100px;
-    font-size: 30px;
+    top: 170px;
+    font-size: 50px;
 }
 .textoblanco{
     position: relative;
     color: #efeff0;
-    top:200px;
-    left: 1000px;
+    top:120px;
+    left: 900px;
     font-family: tipoletra;
-    font-size: 60px;
+    font-size: 70px;
 }
 .textoblanco2{
     position: relative;
     color: #efeff0;
-    top:450px;
-    left: 500px;
+    top:100px;
+    left: 900px;
     font-family: tipoletra;
     font-size: 30px;
 }
 .cuadroNaranja2{
     position: relative;
     width: 217px;
-    height: 24px;
+    height: 60px;
     background-color: #fc6f2a;
     border: #fc6f2a;
-    padding: 20px;
-    top: 700px;
-    left: -50px;
+    top: 110px;
+    left: 905px;
 }
 .textoNaranja2{
     position: relative;
     color: #efeff0;
-    top: -40px;
+    top: 10px;
     left: 5px;
     font-family: tipoletra;
     font-size: 30px;
 }
 .imagenabout{
     position: relative;
-    top: 250px;
-    left: -1100px;
+    top: -390px;
+    left: 200px;
     width: 520px;
 }
 .fondo3{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
-    display: flex;
     border-style: solid ;
     border-color: #cb5d2a;
+    overflow: hidden;
     
 }
 .textonaranja3{
     position: relative;
     font-family: tipoletra;
-    left: 900px;
+    left: 800px;
     color: #cb5d2a;
     top: 50px;
     font-size: 40px;
+    margin-right: 1600px;
     
 }
 .textoblanco3{
     position: relative;
     color: #efeff0;
-    top:200px;
-    left: 250px;
+    top:-20px;
+    left: 350px;
     font-family: tipoletra;
     font-size: 80px;
 }
 .cuadroPiel1{
     position: relative;
-    width: 350px;
+    width: 400px;
     height: 400px;
     background-color:#ffefe8;
-    border: #3c3944;
-    padding: 20px;
-    top: 500px;
-    left: -800px;
+    border: 5px groove #101010;
+    top: 95px;
+    float: left;
+    margin-left: 300px;
 }
 .food1{
     position: relative;
-    top: 2px;
-    left: -20px;
+    top: 30px;
+    left: 50px;
     width: 20px;
 }
 .chicken{
     position: relative;
     color: #0b0b0c;
-    top:-30px;
-    left: 5px;
+    top:380px;
+    left: -330px;
     font-family: tipoletra;
     font-size: 30px;
 }
 .tasty{
     position: relative;
     color: #0b0b0c;
-    top:-50px;
-    left: 50px;
+    top:350px;
+    left: -300px;
     font-family: tipoletra;
     font-size: 25px;
 }
 .precio1{
     position: relative;
     color: #cb5d2a;
-    top:-70px;
-    left: 90px;
+    top:330px;
+    left: -250px;
     font-size: 25px;
 }
 .cuadroPiel2{
     position: relative;
-    width: 350px;
+    width: 400px;
     height: 400px;
     background-color:#ffefe8;
-    border: #3c3944;
-    padding: 20px;
-    top: 500px;
-    left: -750px;
+    border: 5px groove #101010;
+    top: -80px;
+    float: left;
+    margin-left: 30px;
 }
 .food2{
     position: relative;
@@ -252,35 +259,35 @@
 .Special{
     position: relative;
     color: #0b0b0c;
-    top:-30px;
-    left: 20px;
+    top:5px;
+    left: 30px;
     font-family: tipoletra;
     font-size: 30px;
 }
 .tasty2{
     position: relative;
     color: #0b0b0c;
-    top:-50px;
-    left: 50px;
+    top:-30px;
+    left: 120px;
     font-family: tipoletra;
     font-size: 25px;
 }
 .precio2{
     position: relative;
     color: #cb5d2a;
-    top:-70px;
+    top:-50px;
     left: 150px;
     font-size: 25px;
 }
 .cuadroPiel3{
     position: relative;
-    width: 350px;
+    width: 400px;
     height: 400px;
     background-color:#ffefe8;
-    border: #3c3944;
-    padding: 20px;
-    top: 500px;
-    left: -700px;
+    border: 5px groove #101010;
+    top: -80px;
+    float: left;
+    margin-left: 30px;
 }
 .food3{
     position: relative;
@@ -291,21 +298,19 @@
 .chicken2{
     position: relative;
     color: #0b0b0c;
-    top:-30px;
+    top:-0px;
     left: 50px;
     font-family: tipoletra;
     font-size: 30px;
 }
 .fondo4{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
-    display: flex;
     border-style: solid ;
     border-color: #cb5d2a;
+    overflow: hidden;
     
 }
 .Service2{
@@ -320,86 +325,84 @@
     position: relative;
     color:#efeff0;
     font-family: tipoletra;
-    top:90px;
-    left: 210px;
+    top:50px;
+    left: 350px;
     font-size: 70px;
 }
 .s1{
     position: relative;
-    top: 300px;
-    left: -1100px;
+    top: 30px;
+    left: 300px;
     width: 20px;
 }
 .order{
     position: relative;
     color: #cb5d2a;
     font-family: tipoletra;
-    top:620px;
-    left: -1030px;
+    top:-50px;
+    left: 400px;
     font-size: 50px;
 }
 .s2{
     position: relative;
-    top: 300px;
-    left: -600px;
+    top: -650px;
+    left: 800px;
     width: 20px;
 }
 .shipping{
     position: relative;
     color: #cb5d2a;
     font-family: tipoletra;
-    top:620px;
-    left: -560px;
+    top:-700px;
+    left: 900px;
     font-size: 50px;
 }
 .s3{
     position: relative;
-    top: 300px;
-    left: -300px;
+    top: -1350px;
+    left: 1300px;
     width: 20px;
 }
 .dellvered{
     position: relative;
     color: #cb5d2a;
     font-family: tipoletra;
-    top:650px;
-    left: -100px;
+    top:-1500px;
+    left: 1350px;
     font-size: 50px;
 }
 .textoo1{
     position: relative;
     color:#efeff0;
     font-family: tipoletra;
-    top:700px;
-    left: -280px;
-    font-size: 40px;
+    top:-20px;
+    left: 200px;
+    font-size: 30px;
 }
 .textoo2{
     position: relative;
     color:#efeff0;
     font-family: tipoletra;
-    top:700px;
-    left: -210px;
-    font-size: 40px;
+    top:-720px;
+    left: 750px;
+    font-size: 30px;
 }
 .textoo3{
     position: relative;
     color:#efeff0;
     font-family: tipoletra;
-    top:700px;
-    left: -210px;
-    font-size: 40px;
+    top:-1240px;
+    left: 1300px;
+    font-size: 30px;
 }
 .fondo5{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
-    display: flex;
     border-style: solid ;
     border-color: #cb5d2a;
+    overflow: hidden;
     
 }
 .cuadrogrande{
@@ -407,7 +410,7 @@
     width: 1500px;
     height: 600px;
     background-color:#ffefe8;
-    border: #3c3944;
+    border: 5px groove #101010;
     padding: 20px;
     top: 200px;
     left: 190px;
@@ -417,7 +420,8 @@
     color:#0b0b0c;
     font-family: tipoletra;
     top:100px;
-    left: 300px;
+    left: 10px;
+    text-align: center;
     font-size: 70px;
 }
 .cuadroNaranjaa{
@@ -428,7 +432,7 @@
     border: #fc6f2a;
     padding: 20px;
     top: 100px;
-    left: 550px;
+    left: 640px;
 }
 .textoNaranjaa{
     position: relative;
@@ -440,14 +444,12 @@
 }
 .fondo6{
     background-color: #1e1d2b;
-    top: 0px;
-    left: 2px;
     width: 1920px;
-    height: 880px;
+    height: 580px;
     margin: 0 auto;
-    display: flex;
     border-style: solid ;
     border-color: #cb5d2a;
+    overflow: hidden;
     
 }
 .columna1{
@@ -461,48 +463,48 @@
 .columna11{
     position: relative;
     color: #efeff0;
-    top: 200px;
-    left: 80px;
+    top: 90px;
+    left: 300px;
     font-family: tipoletra;
     font-size: 40px;
 }
 .columna2{
     position: relative;
     color: #efeff0;
-    top: 50px;
-    left: 300px;
+    top: -320px;
+    left: 600px;
     font-family: tipoletra;
     font-size: 40px;
 }
 .columna22{
     position: relative;
     color: #efeff0;
-    top: 200px;
-    left: 50px;
+    top: -280px;
+    left: 600px;
     font-family: tipoletra;
     font-size: 40px;
 }
 .columna3{
     position: relative;
     color: #efeff0;
-    top: 50px;
-    left: 120px;
+    top: -690px;
+    left: 1100px;
     font-family: tipoletra;
     font-size: 40px;
 }
 .columna33{
     position: relative;
     color: #efeff0;
-    top: 200px;
-    left: -130px;
+    top: -650px;
+    left: 1100px;
     font-family: tipoletra;
     font-size: 40px;
 }
 .cont{
     position: relative;
     color: #efeff0;
-    top: 50px;
-    left: -100px;
+    top: -1000px;
+    left: 1500px;
     font-family: tipoletra;
     font-size: 40px;
 }

@@ -73,7 +73,7 @@
 }
 
 .textotitulo{
-    font-family:'Franklin Gothic Medium';
+    font-family: f;
     font-size: 30px;
     position: relative;
     top: -5170px;
@@ -207,7 +207,7 @@
 .textorectanguloo{
     font-size: 46px;
     position: relative;
-    top: -7070px;
+    top: -7065px;
     color: aliceblue;
     left: 237px;
     width: 1492px;
@@ -248,8 +248,8 @@
     opacity: 1;
 }
 .textoimagenX{
-    font-family: calibri;
-    font-size: 44px;
+    font-family: f;
+    font-size: 41px;
     position: relative;
     top: -7400px;
     color: aliceblue;
@@ -260,8 +260,8 @@
     opacity: 1;
 }
 .textoimage{
-    font-family: calibri;
-    font-size: 44px;
+    font-family: f;
+    font-size: 43px;
     position: relative;
     top: -7470px;
     color: aliceblue;
@@ -284,7 +284,7 @@
     opacity: 1;
 }
 .text{
-    font-family: calibri;
+    font-family: f;
     position: relative;
     font-size: 45px;
     top: -7450px;
@@ -296,7 +296,7 @@
     opacity: 1;
 }
 .textt{
-    font-family: calibri;
+    font-family: f;
     position: relative;
     font-size: 45px;
     top: -7540px;
@@ -384,7 +384,7 @@
     opacity: 1;
 }
 .tex{
-    font-family:'Franklin Gothic Medium';
+    font-family: f;
     font-size: 30px;
     position: relative;
     top: -12310px;
@@ -396,7 +396,7 @@
     opacity: 1;
 }
 .textooo{
-    font-family:'Franklin Gothic Medium';
+    font-family: f;
     font-size: 30px;
     position: relative;
     top: -12410px;

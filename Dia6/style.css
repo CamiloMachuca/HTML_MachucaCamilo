@@ -203,3 +203,44 @@
     margin-right: 2650px;
     text-align: center;
 }
+.logo{
+    position: relative;
+    top: 120px;
+    left: 1100px;
+    width: 287px;
+    height: 58px;
+}
+.parrafo{
+    position: relative;
+    top: 10px;
+    left: 181px;
+    color: #e4dbdb;
+    font-family: tipoletra;
+    margin-right: 2250px;
+    font-size: 20px;
+    text-align: center;
+}
+.iconolugar{
+    position: relative;
+    top: -220px;
+    left: 270px;
+    width: 21px;
+    height: 30px;
+}
+.parrafo2{
+    position: relative;
+    top: -200px;
+    left: 1950px;
+    color:#e4dbdb ;
+    font-family: tipoletra;
+    margin-right: 2250px;
+    font-size: 20px;
+    text-align: center;
+}
+.icono2{
+    position: relative;
+    top: 706px;
+    left: 270px;
+    width: 29px;
+    height: 29px;
+}

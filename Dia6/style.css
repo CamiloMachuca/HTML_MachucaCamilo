@@ -244,3 +244,41 @@
     width: 29px;
     height: 29px;
 }
+.casilla{
+    position: relative;
+    width: 750px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 25px;
+    top: -2500px;
+    left: 850px;
+    color: #ffffff;
+    font-size: 52px;
+}
+.casilla1{
+    position: relative;
+    width: 792px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 3px;
+    top: -2430px;
+    left: 850px;
+    color: #ffffff;
+    font-size: 52px;
+}
+.imagencasilla{
+    position: relative;
+    top: -5px;
+    left: 740px;
+    width: 37px;
+    height: 43px;
+}
+.botonConsulta{
+    position: relative;
+    width: 317px;
+    height: 54px;
+    background-color: #2a3cfc;
+    border: #fc6f2a;
+    top: -2250px;
+    left: 1050px;
+}

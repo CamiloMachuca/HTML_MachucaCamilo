@@ -5,10 +5,7 @@
 
 
 
-.contenedor{
-    margin: 0 auto;
-    
-}
+
 .fondo1{
     position: relative;
     top: 0px;
@@ -16,11 +13,13 @@
     height: 1638px;
     background: transparent url('img/pexels-clive-kim-4150032.png') 0% 0% no-repeat padding-box;
     opacity: 0.5;
+    margin: auto;
 }
 .menuBar{
     position:fixed;
     background-color: #3669c9;
     top: 0px;
+    left: 245px;
     width: 2456px;
     height: 174px;
     box-sizing: border-box;
@@ -148,6 +147,7 @@
     top: -570px;
     width: 2456px;
     height: 285px;
+    left: 236px;
 }
 .imagen2{
     position: relative;
@@ -281,4 +281,23 @@
     border: #fc6f2a;
     top: -2250px;
     left: 1050px;
+    border-radius: 10px;
+}
+.botonConsultaBlanco{
+    position: relative;
+    width: 230px;
+    height: 54px;
+    background-color: #fc2a2a;
+    border: #fc6f2a;
+    top: -270px;
+    left: 1850px;
+    border-radius: 30px;
+}
+.consultaa{
+    position: relative;
+    font-family: tipoletra;
+    left: 100px;
+    color:rgb(247, 247, 249);
+    top: 10px;
+    font-size: 30px;
 }

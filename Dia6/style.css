@@ -117,7 +117,7 @@
 }
 .imagen1{
     position: relative;
-    top: -1200px;
+    top: -1240px;
     left: 1010px;
     width: 401px;
     height: 113px;
@@ -126,7 +126,7 @@
 }
 .texto3{
     position: relative;
-    top: -1200px;
+    top: -1240px;
     left: 920px;
     color: #262525;
     font-size: 12px;
@@ -135,10 +135,71 @@
 .texto4{
     font-family: tipo;
     position: relative;
-    top: -1100px;
+    top: -1150px;
     left: 700px;
     color: #262525;
     font-size: 35px;
     font-family: tipoletra;
     
+}
+.cuadroAzul{
+    position:relative;
+    background-color: #3669c9;
+    top: -570px;
+    width: 2456px;
+    height: 285px;
+}
+.imagen2{
+    position: relative;
+    top: -1450px;
+    left: 970px;
+    width: 63px;
+    height: 84px;
+}
+.textt{
+    font-family: tipo;
+    position: relative;
+    top: -1470px;
+    left: 920px;
+    color: #262525;
+    font-size: 30px;
+    font-family: tipoletra;
+}
+.imagen3{
+    position: relative;
+    top: -1630px;
+    left: 1450px;
+    width: 63px;
+    height: 84px;
+}
+.textt1{
+    font-family: tipo;
+    position: relative;
+    top: -1660px;
+    left: 1320px;
+    color: #262525;
+    font-size: 30px;
+    font-family: tipoletra;
+}
+.texx{
+    font-family: tipo;
+    position: relative;
+    top: -1680px;
+    left: 795px;
+    color: #262525;
+    font-size: 15px;
+    font-family: tipoletra;
+    margin-right: 2557px;
+    text-align: center;
+}
+.texx2{
+    font-family: tipo;
+    position: relative;
+    top: -1770px;
+    left: 1350px;
+    color: #262525;
+    font-size: 15px;
+    font-family: tipoletra;
+    margin-right: 2650px;
+    text-align: center;
 }

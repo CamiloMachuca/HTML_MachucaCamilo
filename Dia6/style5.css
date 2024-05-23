@@ -27,14 +27,14 @@
 }
 .imagenBlanca1{
     position: relative;
-    top: -1450px;
-    left: 0px;
     width: 1545px;
-    height: 1225px;
-    background: transparent url('img/Rectangle 12.png') 0% 0% no-repeat padding-box;
+    height: 870px;
+    background-color: white;
+    border: 1px solid #91a9d7;
+    top:-1410px;
     border-radius: 50px;
-    opacity: 1;
-    margin: 0 auto;
+    margin: auto;
+
 }
 .inicio{
     position: relative;
@@ -73,7 +73,7 @@
 }
 .dian{
     position: relative;
-    top: -1400px;
+    top: -1350px;
     left: 0px;
     width: 313px;
     height: 53px;
@@ -83,7 +83,7 @@
 .texto{
     position: relative;
     color: #070707;
-    top: -1400px;
+    top: -1350px;
     left: 1100px;
     font-family: tipoletra;
     font-size: 25px;
@@ -118,7 +118,7 @@
 }
 .imagen1{
     position: relative;
-    top: -1240px;
+    top: -1110px;
     left: 0px;
     width: 401px;
     height: 113px;
@@ -127,10 +127,10 @@
 }
 .texto3{
     position: relative;
-    top: -1180px;
+    top: -1120px;
     left: 0px;
-    color: #262525;
-    font-size: 14px;
+    color: #727070;
+    font-size: 10px;
     font-family: tipoletra;
 }
 .texto4{
@@ -146,65 +146,15 @@
 .cuadroAzul{
     position:relative;
     background-color: #3669c9;
-    top: -570px;
+    top: -775px;
     width: 2456px;
     height: 285px;
 
 }
-.imagen2{
-    position: relative;
-    top: -1450px;
-    left: -270px;
-    width: 63px;
-    height: 84px;
-}
-.textt{
-    font-family: tipo;
-    position: relative;
-    top: -1470px;
-    left: -270px;
-    color: #262525;
-    font-size: 30px;
-    font-family: tipoletra;
-}
-.imagen3{
-    position: relative;
-    top: -1630px;
-    left: 200px;
-    width: 63px;
-    height: 84px;
-}
-.textt1{
-    font-family: tipo;
-    position: relative;
-    top: -1650px;
-    left: 200px;
-    color: #262525;
-    font-size: 30px;
-    font-family: tipoletra;
-}
-.texx{
-    font-family: tipo;
-    position: relative;
-    top: -1680px;
-    left: 995px;
-    color: #262525;
-    font-size: 15px;
-    font-family: tipoletra;
-    margin-right: 2557px;
-    text-align: center;
-}
-.texx2{
-    font-family: tipo;
-    position: relative;
-    top: -1765px;
-    left: 1530px;
-    color: #262525;
-    font-size: 15px;
-    font-family: tipoletra;
-    margin-right: 2650px;
-    text-align: center;
-}
+
+
+
+
 .logo{
     position: relative;
     top: 120px;
@@ -248,29 +198,35 @@
 }
 .casilla input{
     position: relative;
-    top: -2490px;
+    top: -1870px;
     left: 0px;
     width: 799px;
     height: 55px;
     font-size: larger;
 }
-.casilla1{
+.casilla1 input{
     position: relative;
-    width: 792px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    padding: 3px;
-    top: -2430px;
+    top: -1980px;
     left: 0px;
-    color: #ffffff;
-    font-size: 52px;
+    width: 799px;
+    height: 55px;
+    font-size: larger;
 }
-.imagencasilla{
+.casilla2 input{
     position: relative;
-    top: -2690px;
-    left: 380px;
-    width: 37px;
-    height: 43px;
+    top: -1810px;
+    left: 0px;
+    width: 799px;
+    height: 55px;
+    font-size: larger;
+}
+.text{
+    position: relative;
+    top: -1825px;
+    left: -335px;
+    width: 318px;
+    height: 21px;
+    font-family: tipoletra;
 }
 .botonConsulta{
     position: relative;
@@ -278,7 +234,7 @@
     height: 44px;
     background-color: #2a3cfc;
     border: #fc6f2a;
-    top: -2260px;
+    top: -1460px;
     left: 0px;
     border-radius: 20px;
 }
@@ -306,40 +262,8 @@
     top: 10px;
     font-size: 18px;
 }
-.botoConsulta{
-    position: relative;
-    width: 200px;
-    height: 44px;
-    background-color: #2a3cfc;
-    border: #fc6f2a;
-    top: -1910px;
-    left: 190px;
-    border-radius: 20px;
-}
-.Tramitarr{
-    position: relative;
-    font-family: tipoletra;
-    color:rgb(245, 239, 239);
-    top: 10px;
-    font-size: 18px;
-}
-.botoConsulta1{
-    position: relative;
-    width: 200px;
-    height: 44px;
-    background-color: #2a3cfc;
-    border: #fc6f2a;
-    top: -1970px;
-    left: -280px;
-    border-radius: 20px;
-}
-.Tramitar1{
-    position: relative;
-    font-family: tipoletra;
-    color:rgb(245, 239, 239);
-    top: 10px;
-    font-size: 18px;
-}
+
+
 .icono3{
     position: relative;
     top: -420px;

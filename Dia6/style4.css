@@ -1,0 +1,283 @@
+@font-face {
+    font-family: tipoletra;
+    src: url("./tipografia/Myriad\ Pro\ Regular.ttf");
+}
+
+.fondo1{
+    position: relative;
+    top: 0px;
+    width: 2456px;
+    height: 1638px;
+    background: transparent url('img/pexels-clive-kim-4150032.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    margin: auto;
+}
+.menuBar{
+    position:fixed;
+    background-color: #3669c9;
+    top: 0px;
+    left: 245px;
+    width: 2456px;
+    height: 174px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.inicio{
+    position: relative;
+    font-family: tipoletra;
+    left: 550px;
+    color:aliceblue;
+    top: 40px;
+    font-size: 30px;
+}
+.tramites{
+    position: relative;
+    font-family: tipoletra;
+    left: 200px;
+    color:aliceblue;
+    top: -65px;
+    font-size: 30px;
+
+}
+.logoGobierno{
+    position: relative;
+    top: -120px;
+    left: 500px;
+    width: 349px;
+    height: 69px;
+    background: transparent url('img/gobiernodecolombia.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.contacto{
+    position: relative;
+    font-family: tipoletra;
+    left: 900px;
+    color:aliceblue;
+    top: -68px;
+    font-size: 30px;
+}
+.dian{
+    position: relative;
+    top: -1370px;
+    left: 0px;
+    width: 313px;
+    height: 53px;
+    background: transparent url('img/2560px-Dian_(Colombia)_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.imagenBlanca1{
+    position: relative;
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border: 1px solid #91a9d7;
+    top:-1410px;
+    border-radius: 50px;
+    margin: auto;
+
+}
+.botonConsultaBlanco{
+    position: relative;
+    width: 230px;
+    height: 54px;
+    background-color: #f5f0f0;
+    top: -213px;
+    left: 1300px;
+    border-radius: 30px;
+}
+.consultaa{
+    position: relative;
+    font-family: tipoletra;
+    left: 50px;
+    color:rgb(9, 9, 9);
+    top: 10px;
+    font-size: 30px;
+}
+.cuadroAzul{
+    position:relative;
+    background-color: #3669c9;
+    top: -975px;
+    width: 2456px;
+    height: 285px;
+
+}
+.texto{
+    position: relative;
+    color: #070707;
+    top: -1290px;
+    left: 780px;
+    font-family: tipoletra;
+    font-size: 27px;
+    margin-right: 1540px;
+    
+}
+
+.texto2{
+    position: relative;
+    color: #5a5a5a;
+    top: -1295px;
+    left: 750px;
+    font-family: tipoletra;
+    font-size: 30px;
+    margin-right: 1500px;
+    text-align: center;
+}
+.texto3{
+    position: relative;
+    color: #5a5a5a;
+    top: -1295px;
+    left: 1130px;
+    font-family: tipoletra;
+    font-size: 15px;
+    margin-right: 2240px;
+    text-align: center;
+}
+
+.texto7{
+    position: relative;
+    color: #5a5a5a;
+    top: -1355px;
+    left: 1130px;
+    font-family: tipoletra;
+    font-size: 15px;
+    margin-right: 2190px;
+    text-align: center;
+}
+
+.botonAzul{
+    position: relative;
+    width: 300px;
+    height: 76px;
+    background-color:#157ffb;
+    top: -1290px;
+    left: 0px;
+    border-radius: 30px;
+}
+.textoBoton{
+    position: relative;
+    font-family: tipoletra;
+    left: 0px;
+    color:#f5f0f0;
+    top: 20px;
+    font-size: 30px;
+}
+.logo{
+    position: relative;
+    top: 120px;
+
+    width: 287px;
+    height: 58px;
+}
+.parrafo{
+    position: relative;
+    top: 10px;
+    left: 181px;
+    color: #e4dbdb;
+    font-family: tipoletra;
+    margin-right: 2250px;
+    font-size: 20px;
+    text-align: center;
+}
+.iconolugar{
+    position: relative;
+    top: -220px;
+    left: -950px;
+    width: 21px;
+    height: 30px;
+}
+.parrafo2{
+    position: relative;
+    top: -200px;
+    left: 2080px;
+    color:#e4dbdb ;
+    font-family: tipoletra;
+    margin-right: 2250px;
+    font-size: 20px;
+    text-align: center;
+}
+.icono3{
+    position: relative;
+    top: -420px;
+    left: 950px;
+    width: 21px;
+    height: 30px;
+}
+.textt1{
+    font-family: tipo;
+    position: relative;
+    top: -1300px;
+    left: 0px;
+    color: #262525;
+    font-size: 25px;
+    font-family: tipoletra;
+}
+.imagen3{
+    position: relative;
+    top: -1350px;
+    left: 0px;
+    width: 23px;
+    height: 4px;
+}
+.casilla input{
+    position: relative;
+    top: -1170px;
+    left: 0px;
+    width: 799px;
+    height: 45px;
+    font-size: larger;
+}
+.texto8{
+    position: relative;
+    color: #5a5a5a;
+    top: -1280px;
+    left: 815px;
+    font-family: tipoletra;
+    font-size: 25px;
+    margin-right: 2190px;
+}
+.casilla2 input{
+    position: relative;
+    top: -1190px;
+    left: 0px;
+    width: 799px;
+    height: 45px;
+    font-size: larger;
+}
+.texto9{
+    position: relative;
+    color: #5a5a5a;
+    top: -1300px;
+    left: 882px;
+    font-family: tipoletra;
+    font-size: 25px;
+    margin-right: 2190px;
+}
+.imagen1{
+    position: relative;
+    top: -1399px;
+    left: 0px;
+    width: 401px;
+    height: 113px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.tex{
+    position: relative;
+    color: #5a5a5a;
+    top: -1410px;
+    left: 1095px;
+    font-family: tipoletra;
+    font-size: 10px;
+    margin-right: 2190px;
+}
+.sol{
+    position: relative;
+    top: -1550px;
+    left: 0px;
+    width: 231px;
+    height: 77px;
+    background: transparent url('img/ajaxloadingbar.gif.xhtml;jsessionid=+sHFYknGCBRjqaTejHaNvZYe.muisca_face_nodo6.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

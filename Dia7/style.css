@@ -1,409 +1,270 @@
-.fondo{
-    background-color:rgb(44, 40, 40);
-    left: o.10vw;
-    width: 100vw;
-    height: 100vh;
-    /* UI Properties */
-    border: 1px solid #db0707;
-    opacity: 1;
-    
-}
-
-.imagenfondo{
-    position: relative;
-    top: 99.78vh;
-    width: 100.10vw;
-    height: 26.03vh;
-    background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
-    opacity: 0.35;
-    z-index: auto;
-}
-.lupita{
-    position: relative;
-    top: 124.84vh;
-    left: 3.28vw;
-    width: 1.87vw;
-    height: 0.86vh;
-    background: transparent url('img/Icon awesome-search.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: 1px solid #db0707;
-}
-.loginn{
-    position: relative;
-    top: 126.29vh;
-    left: 88.37vw;
-    width: 10.68vw; 
-    height: 0.48vh;
-    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.login{
-    font-size: 1.0vw;
-    position: relative;
-    top: -24.10vh;
-    left: 91.91vw;
-    width: 2.60vw;
-    height: 1.30vh;
-    color: #e90d0d;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
-    font-family: f;
-
-}
-.prime{
-    position: relative;
-    top: -5120px;
-    left: 682px;
-    width: 556px;
-    height: 313px;
-    background: transparent url('img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.titulo{
-    font-family:'Franklin Gothic Medium';
-    font-size: 30px;
-    position: relative;
-    top: -5190px;
-    color: aliceblue;
-    left: 389px;
-    width: 1151px;
-    height: 60px;
-    background: transparent  0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.textotitulo{
-    font-family: f;
-    font-size: 30px;
-    position: relative;
-    top: -5170px;
-    color: rgb(170, 170, 186);
-    left: 460px;
-    width: 1160px;
-    height: 102px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.cuadritoblanco{
-    position: relative;
-    top: -5110px;
-    left: 730px;
-    width: 458px;
-    height: 104px;
-    background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    border-radius: 52px;
-    opacity: 1;
-}
-.textocuadrito{
-    font-family:Calibri;
-    font-size: 40px;
-    position: relative;
-    top: -5225px;
-    color: rgb(78, 78, 89);
-    left: 800px;
-    width: 360px;
-    height: 40px;
-    background: transparent 0% 0% no-repeat padding-box;
-    
-}
-.cuadroazul1{
-    position: relative;
-    top: -5000px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
-    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.cuadroazul2{
-    position: relative;
-    top: -4950px;
-    left: 64px;
-    width: 1792px;
-    height: 724px;
-    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 108px;
-    opacity: 1;
-}
-.titulocuadroazul{
-    font-family:'Franklin Gothic Medium';
-    font-size:66px;
-    position: relative;
-    top: -5680px;
-    color: aliceblue;
-    left: 155px;
-    width: 1664px;
-    height: 60px;
-    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.rectangle4{
-    position: relative;
-    top: -5700px;
-    left: 477px;
-    width: 181px;
-    height: 309px;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.rectangle5{
-    position: relative;
-    top: -6010px;
-    left: 670px;
-    width: 181px;
-    height: 309px;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.rectangle6{
-    position: relative;
-    top: -6323px;
-    left: 863px;
-    width: 180px;
-    height: 309px;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.rectangle7{
-    position: relative;
-    top: -6635px;
-    left: 1055px;
-    width: 181px;
-    height: 309px;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.rectangle8{
-    position: relative;
-    top: -6945px;
-    left: 1248px;
-    width: 181px;
-    height: 309px;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.textorectangulos{
-    font-size: 50px;
-    position: relative;
-    top: -6960px;
-    color: aliceblue;
-    left: 440px;
-    width: 1492px;
-    height: 110px;
-    background: transparent  0% 0% no-repeat padding-box;
-    opacity: 1;
-    font-family: f;
-}
 @font-face {
     font-family: f;
     src: url("./tipografia/Amazon\ Ember\ Light.ttf");
 }
-.textorectanguloo{
-    font-size: 46px;
-    position: relative;
-    top: -7065px;
+@font-face {
+    font-family: B;
+    src: url("./tipografia/Amazon\ Ember\ Bold.ttf");
+}
+body{
+    background-color: black;
+    margin: 0 auto;
+    width: 100vw;
+    height: 212vw;
+}
+.fondo{
+    margin: 0px auto;
+    width: 100vw;
+    height: 212vw;
+}
+
+.contenedor1{
+    background-image: url(imagenes/FondoTwitch.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    min-height: 56.25vw;
+    text-align: center;
+}
+.logo{
+    width: 30%;
+    height: auto;
+
+}
+
+.imagenfondo{
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+    padding-top: 1vw;
+    margin-left: 2vw;
+}
+.botom{
+    width: 10vw;
+    height: 1vw;
+    margin-left: 80vw;
+    padding-top: 2vw;
+    border-radius: 20vw;
+    
+   
+}
+.texBotom{
+    font-family: f;
+    margin-top: -1.5vw;
+    font-size: 1vw;
+
+}
+.prime{
+    border-radius: 50px;
+    width: 10vw;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-right: 3vw;
+    font-size: 1.5vw;
+    font-family: f;
+}
+.tamaño{
+    color: white;
+    font-size: 3vw;
+    font-family: f;
+}
+.Titulo{
     color: aliceblue;
-    left: 237px;
-    width: 1492px;
-    height: 110px;
-    background: transparent  0% 0% no-repeat padding-box;
-    opacity: 1;
+    font-family: B;
+    font-size: 3vw;
+}
+.TextoTitulo {
+    color: white;
+    font-size: 1.5vw;
     font-family: f;
 }
-.rectangle3{
-    position: relative;
-    top: -6980px;
-    left: 64px;
-    width: 1802px;
-    height: 567px;
-    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 108px;
-    opacity: 1;
+
+.botom2{
+    width: 10vw;
+    height: 1vw;
+    margin-left: 1vw;
+    padding-top: 2vw;
+    border-radius: 20vw;
 }
-.textorectangle3{
-    font-family:'Franklin Gothic Medium';
-    font-size: 64px;
-    position: relative;
-    top: -7550px;
+.contenedor2{
+    background-image: url(imagenes/Group\ 2.png);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    min-height: 56.25vw;
+    margin-left: 4vw;
+}
+.contenedor3{
+    background-image: url(imagenes/Rectangle\ 3.png);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    width: 90vw;
+    min-height: 50.25vw;
+    margin-left: 4vw;
+    text-align: center;
+    margin-top: -29vw;
+}
+.titulocuadroazul{
+    font-family: f;
+    font-size: 3vw;
     color: aliceblue;
-    left: 560px;
-    width: 800px;
-    height: 60px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
-.imagenX{
-    position: relative;
-    top: -7480px;
-    left: 876px;
-    width: 169px;
-    height: 169px;
-    background: transparent url('img/Icon metro-cancel.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+.imagenes{
+    justify-content: space-between;
+    height: auto;
+    width: 90vw;
+    
 }
-.textoimagenX{
+#imagen1{
+    height: auto;
+    width: 9vw;
+}
+#imagen2{
+    height: auto;
+    width: 9vw;
+}
+#imagen3{
+    height: auto;
+    width: 9vw;
+}
+#imagen4{
+    height: auto;
+    width: 9vw;
+}
+#imagen5{
+    height: auto;
+    width: 9vw;
+}
+.texto11{
     font-family: f;
-    font-size: 41px;
-    position: relative;
-    top: -7400px;
     color: aliceblue;
-    left: 290px;
-    width: 1382px;
-    height: 88px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
+    font-size: 2vw;
 }
-.textoimage{
-    font-family: f;
-    font-size: 43px;
-    position: relative;
-    top: -7470px;
+.contenedor4{
+    background-image: url(imagenes/Rectangle\ 33.png);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    width: 90vw;
+    min-height: 50.25vw;
+    margin-left: 4vw;
+    text-align: center;
+    margin-top: -15vw;
+
+}
+#textotituloo{
     color: aliceblue;
-    left: 900px;
-    width: 1382px;
-    height: 88px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
+    font-family: B;
+    font-size: 3vw;
 }
-.compatible{
-    font-family: Arial;
-    font-size: 125px;
-    position: relative;
-    top: -7460px;
-    color:aliceblue;
-    left: 418px;
-    width: 1118px;
-    height: 125px;
-    background: transparent  0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.text{
-    font-family: f;
-    position: relative;
-    font-size: 45px;
-    top: -7450px;
+#texx{
     color: aliceblue;
-    left: 250px;
-    width: 1544px;
-    height: 99px;
-    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.textt{
     font-family: f;
-    position: relative;
-    font-size: 45px;
-    top: -7540px;
+    font-size: 2vw;
+    margin-top: 1vw;
+   
+}
+#texx2{
     color: aliceblue;
-    left: 750px;
-    width: 1544px;
-    height: 99px;
-    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.imagen1{
-    position: relative;
-    top: -7590px;
-    left: 685px;
-    width: 584px;
-    height: 534px;
-    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.imagen2{
-    position: relative;
-    top: -7950px;
-    left: 386px;
-    width: 256px;
-    height: 219px;
-    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.imagen3{
-    position: relative;
-    top: -8200px;
-    left: 1261px;
-    width: 271px;
-    height: 238px;
-    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.llave1{
-    font-size: 40px;
-    color: #707070;
-    position: relative;
-    top: -8350px;
-    left: 1600px;
-    width: 271px;
-    height: 238px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.llave2{
-    font-size: 40px;
-    color: #707070;
-    position: relative;
-    top: -8650px;
-    left: 300px;
-    width: 271px;
-    height: 238px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.firma{
-    position: relative;
-    top: -8650px;
-    left: 826px;
-    width: 430px;
-    height: 241px;
-    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.privacy{
-    position: relative;
-    top: -8820px;
-    left: 543px;
-    width: 831px;
-    height: 25px;
-    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.powere{
-    position: relative;
-    top: -8900px;
-    left: 843px;
-    width: 92px;
-    height: 20px;
-    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.tex{
     font-family: f;
-    font-size: 30px;
-    position: relative;
-    top: -12310px;
-    color: rgb(170, 170, 186);
-    left: 380px;
-    width: 1160px;
-    height: 102px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
+    font-size: 2vw;
 }
-.textooo{
+.contenedor5{
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    width: 90vw;
+    min-height: 50.25vw;
+    margin-left: 4vw;
+    text-align: center;
+    margin-top: -20vw;
+}
+#text1{
+    color: aliceblue;
     font-family: f;
-    font-size: 30px;
-    position: relative;
-    top: -12410px;
-    color: rgb(170, 170, 186);
-    left: 890px;
-    width: 1160px;
-    height: 102px;
-    background: transparent 0% 0% no-repeat padding-box;
-    opacity: 1;
+    font-size: 3vw;
+}
+#text2{
+    color: aliceblue;
+    font-family: f;
+    font-size: 1vw;
+}
+#text3{
+    color: aliceblue;
+    font-family: f;
+    font-size: 1vw;
+}
+.image{
+    justify-content: space-between;
+    height: auto;
+    width: 90vw;
+
+}
+#flecha1{
+    color: rgb(70, 72, 74);
+    font-family: f;
+    font-size: 3vw;
+    margin-left: -60vw;
+    margin-top: -6vw;
+}
+#flecha2{
+    color: rgb(70, 72, 74);
+    font-family: f;
+    font-size: 3vw;
+    margin-left: 60vw;
+    margin-top: -6vw;
+    
+
+}
+#imagen11{
+    height: auto;
+    width: 10vw;
+    margin-left: 4vw;
+
+}
+#imagen12{
+    height: auto;
+    width: 16vw;
+    margin-left: 4vw;
+
+}
+#imagen13{
+    height: auto;
+    width: 11vw;
+    margin-left: 4vw;
+
+    
+}
+.firmas{
+    justify-content: space-between;
+    height: auto;
+    width: 90vw;
+}
+#firma1{
+    height: auto;
+    width: 4vw;
+    margin-top: -5vw;
+    margin-left: -3vw;
+    
+}
+#firma2{
+    height: 5vw;
+    width: 14vw;
+    margin-left: 10vw;
+    margin-top: -2vw;
+}
+.ultimaImag{
+    color: rgb(71, 73, 75);
+    height:auto;
+    margin-top: -5vw;
+    font-family: f;
+    font-size: 1.5vw;
+    
+    
+}
+
+#Xi{
+    height: 12vw;
+    width: 17vw;
+    
 }

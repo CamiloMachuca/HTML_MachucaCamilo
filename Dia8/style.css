@@ -1,0 +1,64 @@
+.contenedor {
+    width: 80vw;
+    height: 200vw;
+}
+.grit-contenedor1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.grit-contenedor1 > div {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    
+    border-radius: 20px;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+    
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+.item2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.grit-contenedor2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color:black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.grit-contenedor2 > div {
+    background-color: black;
+    text-align: center;
+    padding: 2vw 0;
+    
+    border-radius: 20px;
+}
+.itemm1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    
+    
+    
+}
+.itemm2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    
+}

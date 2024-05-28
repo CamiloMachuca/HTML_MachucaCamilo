@@ -1,50 +1,56 @@
 .contenedor {
-    width: 80vw;
-    height: 200vw;
+    width: 98vw;
+    height: auto;
 }
 .grit-contenedor1{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 1vw;
     background-color: black;
-    padding: 10px;
+    padding: 2vw;
     border-radius: 20px;
 }
-.grit-contenedor1 > div {
+.grit-contenedor1 > div  video {
     background-color: black;
     text-align: center;
     padding: 20px 0;
     
     border-radius: 20px;
 }
+
 .item4{
     grid-column-start: 1;
     grid-column-end: 3;
-   
+    
+    border-radius: 20px;
     
 }
 .item1{
     grid-row-start: 1;
     grid-row-end: 1;
+    border-radius: 20px;
     
 }
 .item2{
     grid-row-start: 1;
     grid-row-end: 3;
-    
+    border-radius: 20px;
+}
+#itenn{
+    border-radius: 20px;
 }
 .grit-contenedor2{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 1vw;
     background-color:black;
-    padding: 10px;
+    padding: 2vw;
     border-radius: 20px;
 }
-.grit-contenedor2 > div {
+.grit-contenedor2 > div video {
     background-color: black;
     text-align: center;
-    padding: 2vw 0;
+    padding: 20px 0;
     
     border-radius: 20px;
 }
@@ -52,13 +58,11 @@
     grid-row-start: 1;
     grid-row-end: 1;
     
-    
-    
+    border-radius: 20px;
     
 }
 .itemm2{
     grid-row-start: 1;
     grid-row-end: 3;
-    
     
 }

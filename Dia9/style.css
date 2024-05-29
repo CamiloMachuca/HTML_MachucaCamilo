@@ -1,0 +1,20 @@
+.contenedor{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+.grit-contenedor1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+    background-color: black;
+    padding: 2vw;
+    border-radius: 20px;
+}
+.grit-contenedor1 > div  video {
+    background-color: rgb(160, 55, 55);
+    text-align: center;
+    padding: 20px 0;
+    
+  
+}

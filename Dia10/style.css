@@ -1,0 +1,52 @@
+.contenedor{
+    width: 100vw;
+    height: auto;
+}
+.grit-tablas{
+    width: 93vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vw;
+    background-color: rgb(179, 174, 174);
+    padding: 2vw;
+    border-radius: 20px;
+    gap: 1;
+    
+}
+.grit-tablas div{
+    padding: 20px 0;
+}
+
+.tabla{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(179, 174, 174);
+    border: red 1px solid;
+    height: 5vw;
+    
+}
+.tabla4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 5vw;
+    border: red 1px solid;
+    
+}
+.tabla1{
+    background-color: aliceblue;
+    height: 3vw;
+    border: red 1px solid;
+}
+.tabla2{
+    background-color: aliceblue;
+    height: 3vw;
+    border: red 1px solid;
+}
+.tabla3{
+    background-color: aliceblue;
+    height: 3vw;
+    border: red 1px solid;
+}

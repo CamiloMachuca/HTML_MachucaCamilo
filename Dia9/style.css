@@ -18,10 +18,11 @@ body{
 .animacion2{
     top: 1vw;
     position: relative;
-    animation: nube 9s infinite;
+    animation: nube 9s 1;
     animation-fill-mode: backwards;
     margin-left: 80vw;
     animation-delay: 13s;
+    opacity: 0;
 }
 
 #nube{
@@ -29,47 +30,70 @@ body{
     height: 15vw;
 }
 @keyframes nube{
-    0%{left: 20vw;}
-    50%{left: -40.66vw;}
-    100%{left: -120vw;}
+    0%{opacity: 1; left: 20vw;}
+    50%{opacity: 1; left: -40.66vw;}
+    100%{opacity: 1; left: -120vw;}
 }
 .lluvia{
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     margin-left: 60vw;
     top: -5vw;
     position: relative;
     width: 1vw;
     height: 2vw;
-    background-color: blue;
+    background-color: rgb(8, 135, 214);
     animation-name: gotas;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     border-radius: 0.5vw;
     animation-delay: 16s;
+    opacity: 0;
     
 }
 .lluvia1{
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     margin-left: 62vw;
     top: -48vw;
     position: relative;
     width: 1vw;
     height: 2vw;
-    background-color: blue;
+    background-color: rgb(8, 135, 214);
     animation-name: gota;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     border-radius: 0.5vw;
     animation-delay: 16s;
+    opacity: 0;
+    
+}
+.lluvia2{
+    animation-duration: 2s;
+    margin-left: 58vw;
+    top: -88vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: rgb(8, 135, 214);
+    animation-name: gota1;
+    animation-iteration-count: 1;
+    border-radius: 0.5vw;
+    animation-delay: 16s;
+    opacity: 0;
     
 }
 @keyframes gota{
     0%{opacity: 1;}
-    50%{opacity: 0; top: 30vw;}
+    50%{opacity: 1; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+@keyframes gota1{
+    0%{opacity: 1;}
+    50%{opacity: 1; top: 30vw;}
     100%{opacity: 0;}
     
 }
 @keyframes gotas{
     0%{opacity: 1;}
-    50%{opacity: 0; top: 30vw;}
+    50%{opacity: 1; top: 30vw;}
     100%{opacity: 0;}
     
 }
@@ -77,7 +101,7 @@ body{
     position: relative;
     top: 100vw;
     margin-left: 60vw;
-    animation: flor 8s infinite;
+    animation: flor 8s 1;
     animation-delay: 16s;
 }
 #flor{
@@ -97,7 +121,8 @@ body{
     animation-delay: 20s;
    
     animation-name: sol;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    opacity: 0.2;
 }
 #sol{
     width: 20vw;
@@ -106,12 +131,12 @@ body{
 }
 @keyframes sol{
     0%{opacity: 1;}
-    50%{opacity: 0; }
-    100%{opacity: 0;}
+    50%{opacity: 1; }
+    100%{opacity: 1;}
 
 }
 .conteo3{
-    animation-duration: 4s;
+    animation-duration: 1s;
     margin-left: 50vw;
     top: -30vw;
     position: relative;
@@ -119,12 +144,13 @@ body{
     color: black;
     font-size: 4vw;
     animation-name: numero1;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    opacity: 0;
 }
 @keyframes numero1{
-    0%{opacity: 1;}
-    50%{opacity: 0; }
-    100%{opacity: 0;}
+    0%{opacity: 1; top: 30vw;}
+    50%{opacity: 1; top: 13vw; }
+    100%{opacity: 1;top: 40vw; }
 
 }
 .conteo2{
@@ -136,7 +162,8 @@ body{
     color: black;
     font-size: 4vw;
     animation-name: numero2;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    opacity: 0;
 }
 @keyframes numero2{
     0%{opacity: 1;}
@@ -147,13 +174,14 @@ body{
 .conteo1{
     animation-duration: 3s;
     margin-left: 50vw;
-    top: -35vw;
+    top: -38vw;
     position: relative;
-    animation-delay: 4s;
+    animation-delay: 4.5s;
     color: black;
     font-size: 4vw;
     animation-name: numero1;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    opacity: 0;
 }
 @keyframes numero1{
     0%{opacity: 1;}
@@ -166,11 +194,12 @@ body{
     margin-left: 50vw;
     top: -45vw;
     position: relative;
-    animation-delay: 8s;
+    animation-delay: 6s;
     color: black;
     font-size: 4vw;
     animation-name: final;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    opacity: 0;
 }
 @keyframes final{
     0%{opacity: 1;}

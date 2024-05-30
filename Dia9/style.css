@@ -1,15 +1,13 @@
 .contenedor{
-    
+    height: 50vw;
     justify-content: center;
-    
-}
-body{
     overflow: hidden;
 }
 
+
 .imagenFondo{
     position: absolute;
-    width: 100vw;
+    width: 99vw;
     height: 50vw;
     justify-content: center;
 }

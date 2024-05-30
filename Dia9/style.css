@@ -1,20 +1,180 @@
 .contenedor{
     width: 100vw;
-    height: auto;
-    text-align: center;
-}
-.grit-contenedor1{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1vw;
-    background-color: black;
-    padding: 2vw;
-    border-radius: 20px;
-}
-.grit-contenedor1 > div  video {
-    background-color: rgb(160, 55, 55);
-    text-align: center;
-    padding: 20px 0;
+    height: 100vh;
+    justify-content: center;
     
-  
+}
+body{
+    overflow: hidden;
+}
+
+.imagenFondo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.animacion2{
+    top: 1vw;
+    position: relative;
+    animation: nube 9s infinite;
+    animation-fill-mode: backwards;
+    margin-left: 80vw;
+    animation-delay: 13s;
+}
+
+#nube{
+    width: 40vw;
+    height: 15vw;
+}
+@keyframes nube{
+    0%{left: 20vw;}
+    50%{left: -40.66vw;}
+    100%{left: -120vw;}
+}
+.lluvia{
+    animation-duration: 0.5s;
+    margin-left: 60vw;
+    top: -5vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: blue;
+    animation-name: gotas;
+    animation-iteration-count: infinite;
+    border-radius: 0.5vw;
+    animation-delay: 16s;
+    
+}
+.lluvia1{
+    animation-duration: 0.5s;
+    margin-left: 62vw;
+    top: -48vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: blue;
+    animation-name: gota;
+    animation-iteration-count: infinite;
+    border-radius: 0.5vw;
+    animation-delay: 16s;
+    
+}
+@keyframes gota{
+    0%{opacity: 1;}
+    50%{opacity: 0; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+@keyframes gotas{
+    0%{opacity: 1;}
+    50%{opacity: 0; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+.flor{
+    position: relative;
+    top: 100vw;
+    margin-left: 60vw;
+    animation: flor 8s infinite;
+    animation-delay: 16s;
+}
+#flor{
+    width: 8vw;
+    height: 20vw;
+}
+@keyframes flor{
+    0%{top: 30vw;}
+    50%{top: 13vw;}
+    100%{top: 40vw;}
+}
+.sol{
+    animation-duration: 8s;
+    margin-left: 80vw;
+    top: -38vw;
+    position: relative;
+    animation-delay: 20s;
+   
+    animation-name: sol;
+    animation-iteration-count: infinite;
+}
+#sol{
+    width: 20vw;
+    height: 20vw;
+    
+}
+@keyframes sol{
+    0%{opacity: 1;}
+    50%{opacity: 0; }
+    100%{opacity: 0;}
+
+}
+.conteo3{
+    animation-duration: 4s;
+    margin-left: 50vw;
+    top: -30vw;
+    position: relative;
+    animation-delay: 2s;
+    color: black;
+    font-size: 4vw;
+    animation-name: numero1;
+    animation-iteration-count: infinite;
+}
+@keyframes numero1{
+    0%{opacity: 1;}
+    50%{opacity: 0; }
+    100%{opacity: 0;}
+
+}
+.conteo2{
+    animation-duration: 4s;
+    margin-left: 50vw;
+    top: -30vw;
+    position: relative;
+    animation-delay: 3s;
+    color: black;
+    font-size: 4vw;
+    animation-name: numero2;
+    animation-iteration-count: infinite;
+}
+@keyframes numero2{
+    0%{opacity: 1;}
+    50%{opacity: 0; }
+    100%{opacity: 0;}
+
+}
+.conteo1{
+    animation-duration: 3s;
+    margin-left: 50vw;
+    top: -35vw;
+    position: relative;
+    animation-delay: 4s;
+    color: black;
+    font-size: 4vw;
+    animation-name: numero1;
+    animation-iteration-count: infinite;
+}
+@keyframes numero1{
+    0%{opacity: 1;}
+    50%{opacity: 0; }
+    100%{opacity: 0;}
+
+}
+.accion{
+    animation-duration: 3s;
+    margin-left: 50vw;
+    top: -45vw;
+    position: relative;
+    animation-delay: 8s;
+    color: black;
+    font-size: 4vw;
+    animation-name: final;
+    animation-iteration-count: infinite;
+}
+@keyframes final{
+    0%{opacity: 1;}
+    50%{opacity: 0; }
+    100%{opacity: 0;}
+
 }

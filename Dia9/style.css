@@ -1,6 +1,5 @@
 .contenedor{
-    width: 100vw;
-    height: 100vh;
+    
     justify-content: center;
     
 }
@@ -11,7 +10,7 @@ body{
 .imagenFondo{
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 50vw;
     justify-content: center;
 }
 
@@ -21,7 +20,7 @@ body{
     animation: nube 9s 1;
     animation-fill-mode: backwards;
     margin-left: 80vw;
-    animation-delay: 13s;
+    animation-delay: 9s;
     opacity: 0;
 }
 
@@ -35,8 +34,8 @@ body{
     100%{opacity: 1; left: -120vw;}
 }
 .lluvia{
-    animation-duration: 2s;
-    margin-left: 60vw;
+    animation-duration: 3s;
+    margin-left: 65vw;
     top: -5vw;
     position: relative;
     width: 1vw;
@@ -45,12 +44,12 @@ body{
     animation-name: gotas;
     animation-iteration-count: 1;
     border-radius: 0.5vw;
-    animation-delay: 16s;
+    animation-delay: 12s;
     opacity: 0;
     
 }
 .lluvia1{
-    animation-duration: 2s;
+    animation-duration: 3s;
     margin-left: 62vw;
     top: -48vw;
     position: relative;
@@ -60,14 +59,13 @@ body{
     animation-name: gota;
     animation-iteration-count: 1;
     border-radius: 0.5vw;
-    animation-delay: 16s;
+    animation-delay: 12s;
     opacity: 0;
-    
 }
 .lluvia2{
-    animation-duration: 2s;
+    animation-duration: 3s;
     margin-left: 58vw;
-    top: -88vw;
+    top: -146vw;
     position: relative;
     width: 1vw;
     height: 2vw;
@@ -75,50 +73,119 @@ body{
     animation-name: gota1;
     animation-iteration-count: 1;
     border-radius: 0.5vw;
-    animation-delay: 16s;
+    animation-delay: 12s;
     opacity: 0;
+  
     
 }
+
 @keyframes gota{
     0%{opacity: 1;}
-    50%{opacity: 1; top: 30vw;}
+    50%{opacity: 0.1; top: 30vw;}
     100%{opacity: 0;}
     
 }
+.lluvia3{
+    animation-duration: 3s;
+    margin-left: 60vw;
+    top: -147vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: rgb(8, 135, 214);
+    animation-name: gota3;
+    animation-iteration-count: 1;
+    border-radius: 0.5vw;
+    animation-delay: 12s;
+    opacity: 0;
+    
+}
+
+@keyframes gota3{
+    0%{opacity: 1;}
+    50%{opacity: 0.1; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+.lluvia4{
+    animation-duration: 2s;
+    margin-left: 64vw;
+    top: -149vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: rgb(8, 135, 214);
+    animation-name: gota4;
+    animation-iteration-count: 1;
+    border-radius: 0.5vw;
+    animation-delay: 12s;
+    opacity: 0;
+    
+}
+
+@keyframes gota4{
+    0%{opacity: 1;}
+    50%{opacity: 0.1; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+.lluvia5{
+    animation-duration: 2s;
+    margin-left: 61vw;
+    top: -150vw;
+    position: relative;
+    width: 1vw;
+    height: 2vw;
+    background-color: rgb(8, 135, 214);
+    animation-name: gota5;
+    animation-iteration-count: 1;
+    border-radius: 0.5vw;
+    animation-delay: 12s;
+    opacity: 0;
+    
+}
+
+@keyframes gota5{
+    0%{opacity: 1;}
+    50%{opacity: 0.1; top: 30vw;}
+    100%{opacity: 0;}
+    
+}
+
 @keyframes gota1{
     0%{opacity: 1;}
-    50%{opacity: 1; top: 30vw;}
+    50%{opacity: 0.2; top: 30vw;}
     100%{opacity: 0;}
     
 }
 @keyframes gotas{
     0%{opacity: 1;}
-    50%{opacity: 1; top: 30vw;}
+    50%{opacity: 0.2; top: 30vw;}
     100%{opacity: 0;}
     
 }
 .flor{
     position: relative;
-    top: 100vw;
+    top: 40vw;
     margin-left: 60vw;
-    animation: flor 8s 1;
-    animation-delay: 16s;
+    animation: flor 8s ;
+    animation-delay: 11s;
 }
 #flor{
     width: 8vw;
     height: 20vw;
 }
 @keyframes flor{
-    0%{top: 30vw;}
+    0%{top: 40vw;}
     50%{top: 13vw;}
-    100%{top: 40vw;}
+    100%{top: 60vw;}
 }
 .sol{
     animation-duration: 8s;
     margin-left: 80vw;
     top: -38vw;
     position: relative;
-    animation-delay: 20s;
+    animation-delay: 16s;
    
     animation-name: sol;
     animation-iteration-count: 1;
@@ -138,11 +205,11 @@ body{
 .conteo3{
     animation-duration: 1s;
     margin-left: 50vw;
-    top: -30vw;
+    top: -50vw;
     position: relative;
     animation-delay: 2s;
     color: black;
-    font-size: 4vw;
+    font-size: 10vw;
     animation-name: numero1;
     animation-iteration-count: 1;
     opacity: 0;
@@ -156,11 +223,11 @@ body{
 .conteo2{
     animation-duration: 4s;
     margin-left: 50vw;
-    top: -30vw;
+    top: -70vw;
     position: relative;
     animation-delay: 3s;
     color: black;
-    font-size: 4vw;
+    font-size: 10vw;
     animation-name: numero2;
     animation-iteration-count: 1;
     opacity: 0;
@@ -174,11 +241,11 @@ body{
 .conteo1{
     animation-duration: 3s;
     margin-left: 50vw;
-    top: -38vw;
+    top: -90vw;
     position: relative;
     animation-delay: 4.5s;
     color: black;
-    font-size: 4vw;
+    font-size: 10vw;
     animation-name: numero1;
     animation-iteration-count: 1;
     opacity: 0;
@@ -191,12 +258,12 @@ body{
 }
 .accion{
     animation-duration: 3s;
-    margin-left: 50vw;
-    top: -45vw;
+    margin-left: 35vw;
+    top: -115vw;
     position: relative;
     animation-delay: 6s;
     color: black;
-    font-size: 4vw;
+    font-size: 10vw;
     animation-name: final;
     animation-iteration-count: 1;
     opacity: 0;

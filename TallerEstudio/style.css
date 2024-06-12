@@ -1,0 +1,44 @@
+@font-face {
+    font-family: tipoletra;
+    src: url("./tipografia/MyriadPro-Light.otf");
+}
+
+
+
+.menuBar{
+    position:fixed;
+    background-color: #3669c9;
+    width: 100vw;
+    height: 9vw;
+    margin-top: -1vw;
+    
+}
+.contenidoBarraAzul{
+    margin-top: 3.5vw;
+    width: 90vw;
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    margin-left: 4vw;
+    font-family:tipoletra ;
+}
+.contenedor1{
+    width: 100vw;
+    height: 100vw;
+    background-color: #c95d36;
+}
+
+
+#botomConsulta{
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 2vw;
+    border: beige 1px solid;
+    
+}
+#imagenGobierno{
+    width: 15vw;
+    height: 3vw;
+}
+

@@ -1,0 +1,198 @@
+@font-face {
+    font-family: tipoletra;
+    src: url("./tipografia/MyriadPro-Light.otf");
+}
+
+
+
+.menuBar{
+    top: -1vw;
+    position:fixed;
+    background-color: #3669c9;
+    width: 100vw;
+    height: 9vw;
+    left: -0.5vw;
+    
+}
+.contenidoBarraAzul{
+    margin-top: 3.5vw;
+    width: 90vw;
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    margin-left: 4vw;
+    font-family:tipoletra ;
+}
+#botomConsulta{
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 2vw;
+    border: beige 1px solid;
+    
+}
+#imagenGobierno{
+    width: 15vw;
+    height: 3vw;
+}
+#fondo{
+    margin-top: 7vw;
+    width: 100vw;
+    height: auto;
+}
+#cuadroblanco{
+    background-color: #ffffff;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 2vw;
+    margin-left: 4vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50vw;    
+}
+.Titulo{
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
+}
+.casilla input{
+    font-size: larger;
+    width: 32vw;
+    height: 1.5vw;
+}
+.documento input{
+    font-size: larger;
+    width: 32vw;
+    height: 1.5vw;
+}
+.tex{
+    font-size: 1.4vw;
+    font-family: tipoletra;
+}
+.tipoDocumento{
+    margin-left: 4vw;
+    font-size: 1vw;
+}
+#botomConsultaa{
+    margin-top: 1vw;
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    margin-left: 68vw;
+    border-radius: 0.5vw;
+    border: #157FFB 1px solid;
+    background-color: #157FFB;
+    
+}
+.IngresoSolidario{
+    font-size: 3vw;
+    margin-left: 62vw;
+    margin-top: -25vw;
+    
+    margin-right: 5vw;
+    font-family: tipoletra;
+}
+.TextoIngreso{
+    color: rgb(41, 40, 40);
+    font-size: 1.5vw;
+    margin-left: 58vw;
+    margin-top: 0vw;
+    
+    margin-right: 10vw;
+    font-family: tipoletra;
+}
+#botomConsulta2{
+    margin-top: 4vw;
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    border: #157FFB 1px solid;
+    background-color: #157FFB;
+    
+}
+#cedulaa{
+    font-size: 1vw;
+}
+.Titulo2{
+    font-size: 3vw;
+    font-family: tipoletra;
+    margin-top: 20vw;
+    
+}
+.contenedor2{
+    margin-top: 12vw;
+    width: 100vw;
+    height: auto;
+    
+    
+}
+.texto2{
+    font-family: tipoletra;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    margin-right: 40vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+}
+.imagenGlobo{
+    
+    margin-left: 55vw;
+    margin-top: -27vw;
+}
+.etapasentrega{
+    margin-left: 30vw;
+    width: 30vw;
+}
+.contenedor3{
+    margin-top: 0vw;
+    width: 100vw;
+    height: 100vw;
+    
+    
+}
+.titulocontenedor3{
+    font-family: tipoletra;
+    font-size: 3vw;
+}
+.etapas{
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    width: 70vw;
+    font-family: tipoletra;
+    margin-left: 15vw;
+}
+.fechas{
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    width: 85vw;
+    font-family: tipoletra;
+    margin-left: 8vw;
+}
+.bancos{
+    font-family: tipoletra;
+    font-size: 2vw;
+
+}
+.imagenesBancos{
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    width: 84vw;
+    font-family: tipoletra;
+    margin-left: 8vw;
+}
+.imagenesBancos2{
+    justify-content:space-between;
+    display: flex;
+    font-size: 2vw;
+    
+    width: 40vw;
+    font-family: tipoletra;
+    margin-left: 35vw;
+}
+

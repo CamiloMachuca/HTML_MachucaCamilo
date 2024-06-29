@@ -124,12 +124,10 @@
     margin-top: 20vw;
     
 }
-.contenedor2{
+#contenedor2{
     margin-top: 12vw;
     width: 100vw;
     height: auto;
-    
-    
 }
 .texto2{
     font-family: tipoletra;
@@ -150,7 +148,7 @@
     margin-left: 30vw;
     width: 30vw;
 }
-.contenedor3{
+#contenedor3{
     margin-top: 0vw;
     width: 100vw;
     height: auto;
@@ -204,7 +202,7 @@
     width: 30vw;
     margin-top: 4vw;
 }
-.contenedor4{
+#contenedor4{
     margin-top: 0vw;
     width: 100vw;
     height: auto;
@@ -238,7 +236,7 @@
 .etapasentrega3{
     width: 15vw;
 }
-.contenedor5{
+#contenedor5{
     margin-top: 0vw;
     width: 100vw;
     height: auto;
@@ -269,7 +267,7 @@
     border: #157FFB 1px solid;
     background-color: #157FFB;
 }
-.contenedor6{
+#contenedor6{
     margin-top: 0vw;
     width: 100vw;
     height: auto;

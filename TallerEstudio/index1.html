@@ -11,127 +11,57 @@
 <body>
     <div class="menuBar">
         <div class="contenidoBarraAzul">
-            <a href="index1.html" style="text-decoration: none; color: #f9f5f5;">Inicio</a>
-            <a href="index1.html" style="text-decoration: none; color: #f9f5f5;">¿Que es?</a>
+            <a class="inicio" href="index1.html" >Inicio</a>
+            <a class="pregunta" href="#contenedor2" >¿Que es?</a>
             <img id="imagenGobierno" src="imagenes/gobiernodecolombia.png">
-            <a href="index1.html" style="text-decoration: none; color: #f9f5f5;">Entrega</a>
-            <button id="botomConsulta"><a href="index1.html" style="text-decoration: none; color: black;">
+            <a class="enrtrega" href="#contenedor3" >Entrega</a>
+            <button   id="botomConsulta"><a class="consulttar" href="index1.html" >
                     Consultar</a></button>
 
         </div>
 
     </div>
     <div class="contenedor">
-        <div class="contenedor1">
-            <div class="fondo1">
-                <div>
-                    <img id="fondo" src="imagenes/Fondo.png" alt="">
+        <div class="Contenedor1">
+            <div class="Blanco">
+                <h3>Consulta tu estado del <br> ingreso <br> solidario</h3>
+                <p>Por favor ingresa tus datos personales para revisar el estado de entrega <br> de tu ingreso</p>
+                <div class="Inputs">
+                    <label for="Tipo">Tipo de documento</label>
+                    <select id="cedula">
+                        <option value="cedula"> Cédula de ciudadania</option>
+                        <option value="Tarjeta">Tarjeta de identidad</option>
+                    </select>
+                    
+                    <label for="Document">Número de Documento</label>
+                    <input type="text">
+                    <label for="Document">Primer Nombre</label>
+                    <input type="text">
+                    <label for="Document">Primer Apellido</label>
+                    <input type="text">
+                    <label for="Document">Fecha de expedicion del documento</label>
+                    <input type="date">
+                    <label for="Document">Teléfono Móvil</label>
+                    <input type="text">
                 </div>
-                <div id="cuadroblanco">
-                    <div class="Titulo">
-                        <center>
-                            <p>consulta tu estado del</p>
-                            <p>Ingreso</p>
-                            <p>solidario</p>
-                        </center>
-                    </div>
-                    <center>
-                        <div class="tex">
-                            <p>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso.
-                            </p>
-                        </div>
-                    </center>
-                    <div class="tipoDocumento">
-                        Tipo de documento
-                    </div>
-                    <center>
-                        <div class="documento input">
-
-                            <input type="text" id="cedulaa" placeholder="Cedula de ciudadania" required>
-                        </div>
-                    </center>
-
-                    <div class="tipoDocumento">
-                        Numero de documento
-                    </div>
-                    <center>
-                        <div class="casilla">
-                            <input type="text" name="texto">
-                        </div>
-                    </center>
-
-                    <div class="tipoDocumento">
-                        Primer Nombre
-                    </div>
-                    <center>
-                        <div class="casilla">
-                            <input type="text" name="texto">
-                        </div>
-                    </center>
-
-                    <div class="tipoDocumento">
-                        Primer Apellido
-                    </div>
-                    <center>
-                        <div class="casilla">
-                            <input type="text" name="texto">
-                        </div>
-                    </center>
-
-                    <div class="tipoDocumento">
-                        Fecha de expedicion del documento
-                    </div>
-                    <center>
-                        <div class="documento input">
-
-                            <input type="date" name="documento">
-                        </div>
-                    </center>
-
-                    <div class="tipoDocumento">
-                        Telefono movil
-                    </div>
-                    <center>
-                        <div class="casilla">
-                            <input type="text" name="texto">
-                        </div>
-                    </center>
-                    <center>
-                        <div>
-                            <button id="botomConsulta2"><a href="index.html"
-                                    style="text-decoration: none; color: black;">
-                                    Consultar</a></button>
-                        </div>
-                    </center>
-
-                </div>
-                <div class="IngresoSolidario">
-                    <p>
-                        Ingreso Solidario
-                    </p>
-                </div>
-                <div class="TextoIngreso">
-
-                    <p>
-                        Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más
-                        afectadas y que no pertenezcan a ningún programa social, un subsidio por $160.000
-                    </p>
-
-                </div>
-                <div>
-                    <button id="botomConsultaa"><a href="#contenedor2" style="text-decoration: none; color: black;">
-                            Conocer mas</a></button>
-                </div>
-
+                <br>
+                <a href="">Consultar</a>
+            </div>
+        </div>
+            <div class="Contenedor2">
+                <h2>Ingreso Solidario</h2>
+                <p>Debido a la situacion generada por el COVID-19, <BR> el gobierno nacional aportara a las familias mas afectadas <br> y que no pertezcan a ningun programa social,<br> un subsidio por $160.00</BR></p>
+                <button   class="botomConsulta2"><a class="consulttar" href="#contenedor2" >
+                    Conocer más</a></button>
             </div>
         </div>
         <div id="contenedor2">
-            <center>
+        
                 <div class="Titulo2">
                     <p>¿Qué es el Ingreso Solidario?</p>
                 </div>
-            </center>
-            <center>
+            
+        
                 <div class="texto2">
                     <p>Es un esquema mediante el cual se entrega una <br> transferencia monetaria en favor de los
                         hogares <br> en situacion de pobreza y vulnerabilidad que <br> no sean beneficiarios de
@@ -143,7 +73,7 @@
                     </p>
 
                 </div>
-            </center>
+            
             <div class="imagenGlobo">
                 <img src="imagenes/Diseño sin título.png" width="80%">
             </div>
@@ -154,11 +84,11 @@
             </div>
         </div>
         <div id="contenedor3">
-            <center>
+        
                 <div class="titulocontenedor3">
                     <p>Etapas de Entrega</p>
                 </div>
-            </center>
+            
             <div class="etapas">
                 <p> Etapa 1</p>
                 <p> Etapa 2</p>
@@ -171,11 +101,11 @@
                 <b>18 de Abril al 25 de Abril</b>
 
             </div>
-            <center>
+        
                 <div class="bancos">
                     <p>Bancos Autorizados </p>
                 </div>
-            </center>
+            
             <div class="imagenesBancos">
                 <img src="imagenes/b82ea-logo-vector-bancamia.png" width="25%">
                 <img src="imagenes/logo-bancolombia.png" width="25%">
@@ -197,12 +127,12 @@
 
         </div>
         <div id="contenedor4">
-            <center>
+        
                 <div class="titulocontenedor4">
                     <p>Preguntas Frecuentes</p>
                 </div>
                 <div class="bolitaazul">
-                    <p>1</p>
+                    <p class="n1">1</p>
                 </div>
                 <div class="textocontenedor4">
                     <b>Yo había salido como beneficiaria en la primera fase y ahora no aparezco <br> en el listado de
@@ -228,11 +158,11 @@
                         <img src="imagenes/ver mas.png" width="30%">
                     </a>
                 </div>
-            </center>
+            
             <div id="contenedor5">
-                <center>
+            
                     <div class="bolitaazulcontenedor5">
-                        <p>3</p>
+                        <p class="n3">3</p>
                     </div>
                     <div class="textocontenedor5">
                         <b>¿Qué debo hacer porque me llegó el mensaje de que soy beneficiario y no he recibido el
@@ -246,8 +176,8 @@
                             es elegido <br> dentro del programa ingreso Solidario, pronto recibira un mensaje con <br>
                             las instrucciones para hacer la apertura de una cuenta digital. </p>
                     </div>
-                    <div class="bolitaazul1contenedor5">
-                        <p>4</p>
+                    <div class="bolitaazul1contenedor4"> 
+                        <p class="n4">4</p>
                     </div>
                     <div class="textocontenedor5">
                         <b>Consulté en la página web y soy beneficiario, pero aún <br> no me han llamado ni he recibido mensaje de texto ¿Qué debo hacer?</b>
@@ -260,12 +190,12 @@
                             <img src="imagenes/ver mas.png" width="30%">
                         </a>
                     </div>
-                </center>
+                
             </div>
             <div id="contenedor6">
-                <center>
+            
                     <div class="bolitaazulcontenedor5">
-                        <p>5</p>
+                        <p class="n5">5</p>
                     </div>
                     <div class="textocontenedor5">
                         <b>¿Qué debemos hacer los que somos beneficiarios, pero no tenemos celular o cambiamos de número?</b>
@@ -285,7 +215,7 @@
                     <div class="ultimocuadroazul">
                         <div class="textoultimocuadroazul">
                             <div class="primerparrafo">
-                                <img src="imagenes/Icon material-location-on.png" width="15vw">
+                                <img id="imagenUbicacion" src="imagenes/Icon material-location-on.png" >
                                 <p>Prosperidad Social <br> Carrera 7 No. 27 - 18 / Bogotá D.C., Colombia <br> Código Postal: 110311 <br> Horario de Atención: 8:00 a.m. -2:00 p.m.</p>
                              </div>
                              <div class="tercerparrafo">
@@ -299,14 +229,14 @@
                         </div>
                         <div class="segundoparrafo">
                             <img src="imagenes/logo_footer.png" width="20%">
-                            <div>
+                            <div class="imagenesCuadroAzul">
                             <img  src="imagenes/Image 1.png" width="2%">
                             <img src="imagenes/Image 2.png" width="2%">
                             <img src="imagenes/Image 3.png" width="2%">
                         </div>
                         </div>
                     </div>
-                </center>
+                
 
             </div>
         </div>

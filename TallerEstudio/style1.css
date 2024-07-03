@@ -210,6 +210,7 @@ body{
     width: 85vw;
     font-family: tipoletra3;
     margin-left: 8vw;
+    
 }
 .bancos{
     text-align: center;
@@ -435,12 +436,44 @@ body{
     width: 1vw;
     margin-top: 1vw;
 }
-
+#banco1{
+    width:25% ;
+}
+#banco2{
+    width:25% ;
+}
+#banco3{
+    width:25% ;
+}
+#banco4{
+    width:25% ;
+}
+#banco5{
+    width:25% ;
+}
+#etapasentrega11{
+    width: 40%;
+}
+#vermas1{
+    width: 30%;
+}
+#vermas3{
+    width: 30%;
+}
 @media screen and (max-width:430px){
     .texto2{
         font-size: 3vw;
         margin-left: 20vw;
         margin-right: 20vw;
+    }
+    
+    .Contenedor1{
+        width: 20em;
+        height: 30em;
+    }
+
+    .Titulo2{
+        color: rgb(0, 0, 0);
     }
     .imagenGlobo{
         margin-top: -5vw;
@@ -468,22 +501,173 @@ body{
     }
     #etapa2{
         text-align: center;
-        margin-top: 10vw;
+        margin-top: 16vw;
         font-size: 4vw;
     }
     #etapa3{
         text-align: center;
-        margin-top: 10vw;
+        margin-top: 16vw;
         font-size: 4vw;
     }
-
+    #fecha1{
+        text-align: center;
+        margin-top: 1vw;
+        
+    }
+    #fecha2{
+        text-align: center;
+        margin-top: 16vw;
+        
+    }
+    #fecha3{
+        text-align: center;
+        margin-top: 15vw;
+       
+    }
     .fechas{
         display: block;
         font-size: 4vw;
-        text-align: center;
-        margin-right: -10vw;
+        margin-top: -40vw;
+        
     }
     .bancos{
-        font-size: 5vw;
+        font-size: 8vw;
+    }
+    .imagenesBancos{
+       display: flex;
+       
+       height: 65vw;
+
+    }
+    #banco1{
+        margin-left: 22vw;
+        margin-top: -1vw;
+        width: 40vw;
+        height: 30vw;
+        
+    }
+    #banco2{
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 19vw;
+        width: 40vw;
+        height: 30vw;
+        
+    }
+    #banco3{
+        position: absolute;
+        width: 40vw;
+        height: 18vw;
+        margin-left: 25vw;
+        margin-top: 50vw;
+        
+    }
+    .imagenesBancos2{
+        display: block;
+        margin-top: 10vw;
+    }
+    #banco4{
+        width: 90%;
+        
+    }
+    #banco5{
+        width: 90%;
+        margin-top: 5vw;
+    }
+    #contenedor4{
+        margin-top: 10vw;
+    }
+    #etapasentrega11{
+        width: 30vw;
+        margin-left: -10vw;
+    }
+    .titulocontenedor4{
+        font-size: 8vw;
+    }
+    .bolitaazul{
+        width: 10vw;
+        height: 10vw;
+        margin-left: 45vw;
+    }
+    .n1{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .n2{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .n3{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .n4{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+    .n5{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .textocontenedor4{
+        font-size: 3vw;
+    }
+    .textocontenedor5{
+        font-size: 3vw;
+    }
+    .texto1contenedor4{
+        font-size: 2.5vw;
+    }
+    #vermas1{
+        width: 60%;
+        margin-left: -5vw;
+    }
+    .bolitaazulcontenedor5{
+        width: 10vw;
+        height: 10vw;
+        margin-left: 45vw;
+    }
+    .bolitaazul1contenedor4{
+        width: 10vw;
+        height: 10vw;
+        margin-left: -5vw;
+    }
+    #vermas3{
+        width: 60%;
+        margin-left: -5vw;
+    }
+    .titulocuadroazul{
+        font-size: 4vw;
+    }
+    .textocuadroazul{
+        font-size: 2.5vw;
+        margin-top: -3vw;
+    }
+    .botomContactanos{
+        margin-top: -2vw;
+    }
+    .primerparrafo{
+        margin-top: 3vw;
+        font-size: 1vw;
+    }
+    .tercerparrafo{
+        margin-top: 2vw;
+        font-size: 1vw;
+    }
+    .imagenesCuadroAzul{
+        margin-top: -3vw;
+        margin-left: 3.5vw;
+    }
+    #conocermas{
+        width: 80%;
+        margin-left: -7vw;
+    }
+    .textoultimocuadroazul{
+        width: 90vw;
     }
 }

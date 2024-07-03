@@ -78,19 +78,29 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#consultatitulo{
+    font-size: 3vw;
+    font-family:tipoletra ;
+}
+#texx{
+    font-size: 1.2vw;
+    font-family:tipoletra ;
+}
 .Contenedor1{
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     text-align: center;
     background-color: white;
     border-radius: 5%;
     padding-left: 2em;
+
 }
 .Inputs{
     text-align: start;
     display: flex;
     flex-direction: column;
     width: 90%;
+    
 }
 .Blanco a{
     font-family: tipoletra;
@@ -466,10 +476,13 @@ body{
         margin-left: 20vw;
         margin-right: 20vw;
     }
+    #texx{
+        font-size: 2.3vw;
+    }
     
     .Contenedor1{
         width: 20em;
-        height: 30em;
+        height: 25em;
     }
 
     .Titulo2{

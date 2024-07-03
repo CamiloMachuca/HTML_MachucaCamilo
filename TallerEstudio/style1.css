@@ -159,6 +159,7 @@ body{
     align-content: center;
     width: 100vw;
     height: auto;
+    
 }
 .texto2{
     font-family: tipoletra;
@@ -433,4 +434,56 @@ body{
 #imagenTelefono{
     width: 1vw;
     margin-top: 1vw;
+}
+
+@media screen and (max-width:430px){
+    .texto2{
+        font-size: 3vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .imagenGlobo{
+        margin-top: -5vw;
+        margin-left: 17vw;
+        
+    }
+    .Contenedor2{
+        font-size: 3vw;
+    }
+    .etapasentrega{
+        margin-left: 42vw;
+        width: 40%;
+    }
+    .titulocontenedor3{
+        font-size: 7vw;
+    }
+    .etapas{
+        display: block;
+        
+    }
+    #etapa1{
+        text-align: center;
+        margin-top: 10vw;
+        font-size: 4vw;
+    }
+    #etapa2{
+        text-align: center;
+        margin-top: 10vw;
+        font-size: 4vw;
+    }
+    #etapa3{
+        text-align: center;
+        margin-top: 10vw;
+        font-size: 4vw;
+    }
+
+    .fechas{
+        display: block;
+        font-size: 4vw;
+        text-align: center;
+        margin-right: -10vw;
+    }
+    .bancos{
+        font-size: 5vw;
+    }
 }

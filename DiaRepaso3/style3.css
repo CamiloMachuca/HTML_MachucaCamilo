@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.imagen1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vw;
+    animation: imagen1 9s infinite;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    
+    
+}
+.imagen2{
+    display: flex;
+    justify-content: center;
+    animation: imagen1 9s infinite;
+    animation-fill-mode: backwards;
+    animation-delay: 1.5s;
+    
+    
+}
+@keyframes imagen1{
+    0%{opacity: 1; }
+    50%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes imagen2{
+    0%{opacity: 1; top: -25vw; }
+    50%{opacity: 1;}
+    100%{opacity: 1;}
+}

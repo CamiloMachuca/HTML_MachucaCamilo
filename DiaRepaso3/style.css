@@ -164,9 +164,9 @@ body{
     
 }
 .menuu{
-    width: 10vw;
-    height: 20vw;
-    background-color: #82bdb6;
+    width: 2vw;
+    height: 2.5vw;
+    
     overflow: hidden;
 }
 .consulttar{
@@ -175,8 +175,9 @@ body{
     
 }
 #menu:checked + .menuu {
-    width: 1vw;
-    height: 1vw;
+    background-color: #82bdb6;
+    width: 10vw;
+    height: 12vw;
 }
 #imagenn{
     width: 3vw;
@@ -184,16 +185,16 @@ body{
 }
 #paso1{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }
 #paso2{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }
 #paso3{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }

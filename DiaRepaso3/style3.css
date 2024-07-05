@@ -38,34 +38,53 @@ body{
     60.0001%{top: -180vw;}
     70%{top: -180vw;}
     70.0001%{top: -210vw;}
-    80%{top: -210vw;}
-    80.00001%{top: -240vw;}
-    90%{top: -240vw;}
-    90.00001%{top: -270vw;}
-    100%{top: -270vw;}
-    100.00001%{top: -300vw;}
+    80%{top: -211vw;}
+    80.00001%{top: -241vw;}
+    90%{top: -241vw;}
+    90.00001%{top: -271vw;}
+    100%{top: -271vw;}
+    100.00001%{top: -301vw;}
   
 }
+.menuu{
+    width: 2vw;
+    height: 2.5vw;
+    overflow: hidden;
+}
+.consulttar{
+    color: #131212;
+    text-decoration: none;
+    
+}
 #menu:checked + .menuu {
-    width: 1vw;
-    height: 1vw;
+    background-color: #82bdb6;
+    width: 11vw;
+    height: 12vw;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 #imagenn{
     width: 3vw;
+    
 
 }
 #paso1{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }
 #paso2{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }
 #paso3{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 2vw;
 }

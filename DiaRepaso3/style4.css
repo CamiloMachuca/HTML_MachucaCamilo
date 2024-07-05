@@ -1,0 +1,41 @@
+body{
+    background-color: #e7d4ba;
+}
+.imagen{
+    width: 60%;
+    margin-top: 0.5vw;
+    margin-left: 1.8vw;
+    
+}
+.contenedor1{
+    margin-top: 10vw;
+    text-align: center;
+    margin-left: 30vw; 
+    width: 30vw;
+    height: 20vw;
+    
+    border: 1px aliceblue solid;
+    background-color: aliceblue;
+}
+.fondoimagen{
+    margin-top: -3vw;
+    margin-left: 10vw;
+    text-align: center;
+    border-radius: 5vw;
+    width: 30%;
+    height: 40%;
+    border: 2px solid rgb(227, 230, 230);
+    background-color: aliceblue;
+}
+.titulo{
+    color: red;
+}
+.cuadroazul{
+    margin-left: 8vw;
+    width: 15vw;
+    height: 1.5vw;
+    background-color: blue;
+}
+#textoazul{
+    margin-top: 2vw;
+}

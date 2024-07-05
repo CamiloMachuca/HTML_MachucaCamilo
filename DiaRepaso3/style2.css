@@ -35,3 +35,26 @@ body{
     50%{opacity: 1; left: 40.66vw;}
     100%{opacity: 1; left: 100vw;}
 }
+#menu:checked + .menuu {
+    width: 1vw;
+    height: 1vw;
+}
+#imagenn{
+    width: 3vw;
+
+}
+#paso1{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso2{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso3{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}

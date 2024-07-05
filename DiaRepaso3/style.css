@@ -151,3 +151,49 @@ body{
     animation-duration: 7s;
     animation-iteration-count: 1;
 }
+#botomConsulta{
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 2vw;
+    border: beige 1px solid;
+    margin-left: 90vw;
+    
+    z-index: 2vw;
+
+    
+}
+.menuu{
+    width: 10vw;
+    height: 20vw;
+    background-color: #82bdb6;
+    overflow: hidden;
+}
+.consulttar{
+    color: #131212;
+    text-decoration: none;
+    
+}
+#menu:checked + .menuu {
+    width: 1vw;
+    height: 1vw;
+}
+#imagenn{
+    width: 3vw;
+
+}
+#paso1{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso2{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso3{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}

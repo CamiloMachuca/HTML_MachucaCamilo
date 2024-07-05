@@ -55,3 +55,26 @@ body{
 #textoazul{
     margin-top: 2vw;
 }
+#menu:checked + .menuu {
+    width: 1vw;
+    height: 1vw;
+}
+#imagenn{
+    width: 3vw;
+
+}
+#paso1{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso2{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}
+#paso3{
+    text-decoration: none;
+    color: red;
+    font-size: 2vw;
+}

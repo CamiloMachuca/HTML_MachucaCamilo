@@ -1,0 +1,72 @@
+.contenedor1{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw;
+    background-color: rgb(248, 250, 250);
+    box-shadow: 0 2vw 3vw  ;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.contenedor2{
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(115, 182, 241);
+    border-radius: 5vw;
+}
+.contenedor3{
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 5vw;
+    background-color: 
+    #1b68af;
+}
+.rallas{
+    margin-left: 4.5vw;
+    height: 1vw;
+    width: 0.2vw;
+    background-color: aliceblue;
+}
+.ralla2{
+    margin-top: 7vw;
+    margin-left: 4.5vw;
+    height: 1vw;
+    width: 0.2vw;
+    background-color: aliceblue;
+}
+.ralla3{
+    margin-top: -4.5vw;
+    
+    height: 0.2vw;
+    width: 1vw;
+    background-color: aliceblue;
+}
+.ralla4{
+    margin-top: 0vw;
+    margin-left: 8vw;
+    height: 0.2vw;
+    width: 1vw;
+    background-color: aliceblue;
+}
+.flecha1{
+    width: 0.5vw;
+    height: 3vw;
+    background-color: red;
+    position: relative;
+    top: 9vw;
+    left: -10vw;
+}
+.flecha2{
+    width: 0.5vw;
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 10vw;
+    left: -12vw;
+}

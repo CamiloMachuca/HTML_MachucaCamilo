@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+.barra1{
+    width: 2vw;
+    height: 10vw;
+    background-color: rgb(255, 0, 0);
+    animation-name: barra1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes barra1{
+    0%{
+        
+        height: 1vw;
+        margin-top: 10vw;
+    }
+    10%{
+        height: 2vw;
+    }
+    20%{
+        height: 3vw;
+    }
+    30%{
+        height: 4vw;
+    }
+    40%{
+        height: 5vw;
+    }
+    50%{
+        height: 6vw;
+    }
+    60%{
+        height: 7vw;
+    }
+}
+.barra2{
+    margin-top: -2vw;
+    width: 2vw;
+    height: 13vw;
+    
+    background-color: rgb(238, 16, 16);
+    transform: rotateZ(-23deg);
+    animation-name: barra2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 3vw ;
+}
+@keyframes barra2{
+    0%{
+        margin-left: -1vw;
+        height: 1vw;
+        opacity: 0;
+    }
+    10%{
+        margin-left: -2vw;
+        height: 2vw;
+        opacity: 0;
+    }
+    20%{
+        margin-left: -2vw;
+        height: 3vw;
+        opacity: 0;
+    }
+    30%{
+        margin-left: -2vw;
+        opacity: 0;
+        height: 4vw;
+    }
+    40%{
+        opacity: 0;
+        height: 5vw;
+    }
+    50%{
+        height: 6vw;
+    }
+    60%{
+        height: 7vw;
+    }
+}
+.barra3{
+    
+    margin-left: 0.4vw;
+    width: 2vw;
+    height: 13vw;
+    
+    background-color: rgb(230, 10, 10);
+    animation-name: barra3;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes barra3{
+    0%{
+        opacity: 0;
+        height: 1vw;
+        margin-top: 10vw;
+    }
+    10%{
+        opacity: 0;
+        height: 2vw;
+    }
+    20%{
+        opacity: 0;
+        height: 3vw;
+    }
+    30%{
+        opacity: 0;
+        height: 4vw;
+    }
+    40%{
+        opacity: 0;
+        height: 5vw;
+    }
+    50%{
+        height: 6vw;
+    }
+    60%{
+        height: 7vw;
+        
+    }
+}
+.contenedor{
+    margin-left: 40vw;
+    height: 10vw;
+    width: 20vw;
+    overflow: hidden;
+    margin-top: 20vw;
+    justify-content: center;
+    display: flex
+    
+    
+}

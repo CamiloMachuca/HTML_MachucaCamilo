@@ -1,10 +1,13 @@
 .contenedor1{
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 2vw;
 
-    background-color: rgb(248, 250, 250);
-    box-shadow: 0vw 2vw 1vw 0vw  rgb(138, 135, 135);
+    background-color: #f2f2f2;
+    box-shadow: 0 30px 20px #ccc,
+    0 30px 30px rgba(0,0,0,0.25),
+    0 28px 0 rgba(0,0,0,0.5),
+    0 50px 60px rgba(0,0,0,0.1);
     margin-top: 10vw;
 }
 .contenedor{
@@ -14,10 +17,10 @@
 .contenedor2{
     margin-top: 5vw;
     margin-left: 5vw;
-    width: 10vw;
-    height: 10vw;
-    background-color: #3f8bd3;
-    border-radius: 5vw;
+    width: 20vw;
+    height: 20vw;
+    background: linear-gradient(#1ec9ff,#2971e7);
+    border-radius: 50vw;
 }
 .contenedor3{
     position: relative;
@@ -29,58 +32,57 @@
     background-color: 
     #3f8bd3;
 }
-.rallas{
-    margin-left: 4.5vw;
-    height: 1vw;
-    width: 0.2vw;
-    background-color: aliceblue;
+.lineas span{
+    top: 23.2vw;
+    left: 50vw;
+    background: #f2f2f2;
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    transform: translateY(-137.55px) rotate(calc(10deg*var(--i)));
+    transform-origin: 0px 180px;
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.15));
+
 }
-.ralla2{
-    margin-top: 7vw;
-    margin-left: 4.5vw;
-    height: 1vw;
-    width: 0.2vw;
-    background-color: aliceblue;
+.lineas span::after{
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    transform: rotate(5deg);
+    transform-origin: 0 150px;
 }
-.ralla3{
-    margin-top: -4.5vw;
-    
-    height: 0.2vw;
-    width: 1vw;
-    background-color: aliceblue;
-}
-.ralla4{
-    margin-top: 0vw;
-    margin-left: 8vw;
-    height: 0.2vw;
-    width: 1vw;
-    background-color: aliceblue;
-}
+
 
 .flecha1{
     border-left: 0.5vw solid transparent;
-    border-right: 0.5vw solid transparent;
-    border-bottom: 4vw solid red;
+    border-right: 1vw solid transparent;
+    border-bottom: 9vw solid red;
     
 }
 
 .flecha2{
     border-left: 0.5vw solid transparent;
-    border-right: 0.5vw solid transparent;
-    border-bottom: 4vw solid rgb(255, 255, 255);
+    border-right: 1vw solid transparent;
+    border-bottom: 9vw solid rgb(255, 255, 255);
     
 }
 .flechas{
     transition: all;
     transition-duration: 1s;
-    position: relative;
-    top: 15.5vw;
-    left: -10.5vw;
+    position: absolute;
+    top: 17vw;
+    left: 43vw;
     cursor: pointer;
-    transform: rotateZ(70deg);
+    transform: translateX(130px) rotate(45deg);
+    transition: 2s cubic-bezier(1,-0.39,0.5,1);
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.25));
+    height: 15vw;
     
-    height: 9vw;
 }
 .flechas:hover{
-    transform: rotateZ(360deg);
+    transform: translateX(130px) rotate(405deg);
 }
+
+

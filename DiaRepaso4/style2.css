@@ -55,24 +55,31 @@
     width: 1vw;
     background-color: aliceblue;
 }
-.flecha1:hover{
-    transform: rotateZ(360deg);
-}
+
 .flecha1{
-    position: relative;
-    left: 1vw;
-    top: -5vw;
     border-left: 0.5vw solid transparent;
     border-right: 0.5vw solid transparent;
     border-bottom: 4vw solid red;
-    transform: rotateZ(50deg);
+    
 }
+
 .flecha2{
     border-left: 0.5vw solid transparent;
     border-right: 0.5vw solid transparent;
     border-bottom: 4vw solid rgb(255, 255, 255);
+    
+}
+.flechas{
+    transition: all;
+    transition-duration: 5s;
     position: relative;
-    transform: rotateZ(50deg);
-    top: -2vw;
-    left: -3.6vw;
+    top: 15.5vw;
+    left: -10.5vw;
+    cursor: pointer;
+    transform: rotateZ(70deg);
+    
+    height: 9vw;
+}
+.flechas:hover{
+    transform: rotateZ(360deg);
 }

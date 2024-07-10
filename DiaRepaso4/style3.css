@@ -12,12 +12,12 @@ body{
 .menuu{
     width: 35vw;
     height: 5vw;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 #menu:checked + .menuu {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vw;
     
@@ -37,17 +37,17 @@ body{
 }
 #texto1{
     margin-left: 1vw;
-    margin-top: 1.7vw;
+    margin-top: 2vw;
 }
 .menuu2{
     width: 35vw;
     height: 5vw;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 #menu2:checked + .menuu2 {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vw;
     
@@ -55,12 +55,12 @@ body{
 .menuu3{
     width: 35vw;
     height: 5vw;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 #menu3:checked + .menuu3 {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vw;
     
@@ -68,12 +68,12 @@ body{
 .menuu4{
     width: 35vw;
     height: 5vw;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 #menu4:checked + .menuu4 {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vw;
     
@@ -81,12 +81,12 @@ body{
 .menuu5{
     width: 35vw;
     height: 5vw;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 #menu5:checked + .menuu5 {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vw;
     

@@ -1,8 +1,347 @@
+@font-face {
+    font-family: tipoletra;
+    src: url("./imagenes/Binggo\ Wood\ Font.otf");
+}
+@font-face {
+    font-family: tipoletra2;
+    src: url("./imagenes/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+    font-family: tipoletra3;
+    src: url("./imagenes/Cascadia.ttf");
+}
+html{
+    scroll-behavior: smooth;
+}
+
 .contenedor1{
     background-color: black;
     width: 100vw;
     height: 5vw;
+    position: absolute;
 }
 body{
-    background-color: rgb(15, 15, 15);
+    background-color: #110f0f;
+}
+
+.menu{
+    position:absolute;
+    font-size: 2vw;
+    display: flex;
+    margin-top: -4vw;
+    margin-left: 50vw;
+    justify-content: space-between;
+    width: 30vw;
+    font-family: tipoletra3;
+}
+#home{
+    text-decoration: none;
+    color: aliceblue;
+}
+#about{
+    text-decoration: none;
+    color: aliceblue;
+}
+#menu{
+    text-decoration: none;
+    color: aliceblue;
+}
+#contact{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    color: aliceblue;
+    font-size: 2vw;
+    margin-left: 15vw;
+    font-family: tipoletra2;
+    
+}
+#contenedor2{
+    width: 100vw;
+    height: 60vw;
+    background-color:
+    #1d1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#imagen1{
+    width: 25vw;
+    height: 25vw;
+}
+#titulo{
+    font-family: tipoletra;
+    font-size: 4vw;
+    color: aliceblue;
+}
+#titulo2{
+    font-family: tipoletra;
+    font-size: 4vw;
+    color: aliceblue;
+}
+#cuadro1{
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #db9e4d;
+    font-size: 1vw;
+    margin-left: 14vw;
+}
+#cuadro2{
+    text-align: center;
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #db9e4d;
+    font-size: 1vw;
+    
+}
+#contenedor3{
+    margin-top: 5vw;
+    width: 100vw;
+    height: 30vw;
+    background-color:
+    #110f0f;
+    display: flex;
+    
+}
+#imagen2{
+    width: 26vw;
+    height: 25vw;
+}
+#titulo3{
+    font-family: tipoletra;
+    font-size: 3vw;
+    color: aliceblue;
+}
+#titulo4{
+    height: 10vw;
+    font-family: tipoletra;
+    font-size: 3vw;
+    color: aliceblue;
+}
+#texto1{
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+#texto2{
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+
+.conte{
+    margin-left: 30vw;
+}
+.conte2{
+    margin-top: 10VW;
+    margin-left: 10vw;
+}
+.rallaBlanca{
+    position: absolute;
+    left: 48vw;
+    margin-top: 4vw;
+    width: 7vw;
+    height: 0.2vw;
+    background-color: aliceblue;
+}
+#contenedor4{
+    margin-top: 5vw;
+    width: 100vw;
+    height: 40vw;
+    background-color:
+    #110f0f;
+    display: flex;
+    
+}
+#cuadro3{
+    text-align: center;
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #db9e4d;
+    font-size: 1vw;
+    
+}
+#imagen3{
+    margin-left: 15VW;
+    margin-top: 10vw;
+    width: 20vw;
+    height: 20vw;
+}
+#contenedor5{
+    width: 100vw;
+    height: 40vw;
+    background-color:
+    #110f0f;
+    
+    
+}
+.cuadroo1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 14vw;
+    height: 20vw;
+    border: solid 1px #d49d52;
+}
+.cuadroo2{
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    height: 20vw;
+    border: solid 1px #d49d52;
+}
+.cuadroo3{
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    height: 20vw;
+    border: solid 1px #d49d52;
+}
+.cuadross{
+    margin-top: 10vw;
+    margin-left: 20vw;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+#imagencuadro1{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2.5vw;
+}
+#imagencuadro2{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2.5vw;
+}
+#imagencuadro3{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2.5vw;
+}
+.conte3{
+    margin-top: 7vw;
+    
+}
+#titulo6{
+    position: absolute;
+    margin-top: 3vw;
+    height: 10vw;
+    font-family: tipoletra2;
+    font-size: 2vw;
+    color: aliceblue;
+}
+#texto4{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#texto5{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#texto6{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#cuadro5{
+    text-align: center;
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #db9e4d;
+    font-size: 1vw;
+    
+}
+.conte4{
+    margin-top: 7vw;
+    
+}
+#titulo7{
+    position: absolute;
+    margin-top: 3vw;
+    height: 10vw;
+    font-family: tipoletra2;
+    font-size: 2vw;
+    color: aliceblue;
+}
+#textoo4{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#textoo5{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#textoo6{
+    font-size: 1vw;
+    color: aliceblue;
+}
+#cuadro6{
+    text-align: center;
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #db9e4d;
+    font-size: 1vw;
+    
+}
+#tituloo3{
+    margin-left: 10vw;
+    font-size: 3vw;
+    color: aliceblue;
+    font-family: tipoletra;
+}
+.lineaa{
+    position: absolute;
+    height: 0.1vw;
+    left: 40vw;
+    margin-top: 30vw;
+    width: 20vw;
+    background-color: #db9e4d;
+}
+#contenedor6{
+    
+    width: 100vw;
+    height: 25vw;
+    background-color:#0f0d0d;
+}
+
+.textto{
+    color: aliceblue;
+    margin-top: 10vw;
+    margin-left: 20vw;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+#abou{
+    font-size: 3vw;
+    font-family: tipoletra2;
+}
+#contacc{
+    font-size: 3vw;
+    font-family: tipoletra2;
+}
+#openn{
+    font-size: 3vw;
+    font-family: tipoletra2;
+}
+#textoul{
+    font-size: 1vw;
+}
+.lineaa2{
+    position: absolute;
+    height: 0.1vw;
+    left: 40vw;
+    margin-top: 5vw;
+    width: 20vw;
+    background-color: #db9e4d;
+}
+.ultimotexto{
+    position: absolute;
+    color: white;
+    left: 42vw;
+    margin-top: 5vw;
+    font-size: 1vw;
 }

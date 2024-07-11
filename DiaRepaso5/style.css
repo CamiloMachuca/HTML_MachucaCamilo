@@ -61,7 +61,7 @@ body{
     width: 100vw;
     height: 60vw;
     background-color:
-    #1d1a1a;
+    #151212;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +95,9 @@ body{
     background-color: #db9e4d;
     font-size: 1vw;
     
+}
+.color1{
+    color: #db9e4d;
 }
 #contenedor3{
     margin-top: 5vw;
